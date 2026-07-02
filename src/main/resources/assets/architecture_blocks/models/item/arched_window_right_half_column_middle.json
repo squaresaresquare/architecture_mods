@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "architecture_blocks:item/arched_window_right_half_column_middle"
-  }
-}
-        

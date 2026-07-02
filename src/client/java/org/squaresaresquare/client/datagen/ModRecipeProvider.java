@@ -32,7 +32,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_block", this.has(ModBlocks.MARBLE_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_0_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_END_BASE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .define('2', Blocks.POLISHED_ANDESITE_SLAB)
@@ -44,7 +44,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_polished_andesite_slab", this.has(Blocks.POLISHED_ANDESITE_SLAB))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_0_4, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_END_BASE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .define('2', Blocks.POLISHED_ANDESITE_SLAB)
@@ -55,7 +55,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_polished_andesite_slab", this.has(Blocks.POLISHED_ANDESITE_SLAB))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_0_3, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_PILLAR_BASE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .define('2', Blocks.POLISHED_ANDESITE_SLAB)
@@ -66,7 +66,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_polished_andesite_slab", this.has(Blocks.POLISHED_ANDESITE_SLAB))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_0_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_PILLAR_BASE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .define('2', Blocks.POLISHED_ANDESITE_SLAB)
@@ -77,7 +77,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_polished_andesite_slab", this.has(Blocks.POLISHED_ANDESITE_SLAB))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_1_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_PILLAR_MIDDLE, 1)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .pattern("'01'")
@@ -86,7 +86,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_1_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_PILLAR_MIDDLE, 2)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .pattern("' 10'")
@@ -95,7 +95,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_1_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_END_MIDDLE, 2)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .pattern("'10 '")
@@ -104,7 +104,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_1_4, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_END_MIDDLE, 2)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .pattern("' 01'")
@@ -113,7 +113,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_END_CAP, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', ModBlocks.MARBLE_BLOCK)
@@ -124,7 +124,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .unlockedBy("has_marble_block", this.has(ModBlocks.MARBLE_BLOCK))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_PILLAR_CAP, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', ModBlocks.MARBLE_BLOCK)
@@ -135,7 +135,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .unlockedBy("has_marble_block", this.has(ModBlocks.MARBLE_BLOCK))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_4, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_END_CAP, 2)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', Blocks.QUARTZ_BRICKS)
@@ -146,7 +146,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_3, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_PILLAR_CAP, 2)
                         .define('0', ModBlocks.MARBLE_PILLAR)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', Blocks.QUARTZ_BRICKS)
@@ -157,21 +157,21 @@ public class ModRecipeProvider {
                         .unlockedBy("has_tinted_glass", this.has(Blocks.TINTED_GLASS))
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_0, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL1, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'   '")
                         .pattern("' 0 '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_3_0, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL1, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_3_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL2, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'00  '")
                         .pattern("' 0 '")
@@ -185,21 +185,21 @@ public class ModRecipeProvider {
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_0, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL1, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL2, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'00 '")
                         .pattern("'   '")
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL3, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 00'")
                         .pattern("'   '")
@@ -213,14 +213,14 @@ public class ModRecipeProvider {
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_5_1, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL2, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'   '")
                         .pattern("'   '")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_5_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL3, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -243,21 +243,21 @@ public class ModRecipeProvider {
                         .pattern("'111'")
                         .unlockedBy("has_marble_block", this.has(ModBlocks.MARBLE_BLOCK))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'111'")
                         .pattern("' 0 '")
                         .pattern("'111'")
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL6, 1)
                         .define('0', Blocks.QUARTZ_BLOCK)
                         .pattern("' 0 '")
                         .pattern("'111'")
                         .pattern("'111'")
                         .unlockedBy("has_quartz_block", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_4_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL4, 1)
                         .define('0', Blocks.QUARTZ_BLOCK)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -265,7 +265,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_block", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL6, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'111'")
                         .pattern("' 0 '")
@@ -273,7 +273,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_2_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL6, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -289,7 +289,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_3_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -297,7 +297,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_3_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL6, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -305,7 +305,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_5_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL4, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -313,7 +313,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_5_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -347,7 +347,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_glazed_terracotta", this.has(Items.GLAZED_TERRACOTTA.lightBlue()))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_BASE, 3)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_HALF_PILLAR_BASE, 3)
                         .define('0', Blocks.POLISHED_DIORITE)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', ModBlocks.MARBLE_PILLAR)
@@ -359,7 +359,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_BASE, 3)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_HALF_PILLAR_BASE, 3)
                         .define('0', Blocks.POLISHED_DIORITE)
                         .define('1', Blocks.TINTED_GLASS)
                         .define('2', ModBlocks.MARBLE_PILLAR)
@@ -371,7 +371,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_MIDDLE, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_HALF_PILLAR_MIDDLE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .pattern("'001'")
@@ -381,7 +381,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_MIDDLE, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_HALF_PILLAR_MIDDLE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .pattern("'100'")
@@ -391,7 +391,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_CAP, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEFT_HALF_PILLAR_CAP, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .pattern("'001'")
@@ -401,7 +401,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_CAP, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RIGHT_HALF_PILLAR_CAP, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .pattern("'001'")
@@ -411,7 +411,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_MIDDLE_BASE, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CENTER_PILLAR_BASE, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_BLOCK)
                         .define('2', ModBlocks.MARBLE_PILLAR)
@@ -423,7 +423,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_MIDDLE_COLUMN, 3)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CENTER_PILLAR_MIDDLE, 3)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', ModBlocks.MARBLE_PILLAR)
                         .pattern("'010'")
@@ -433,7 +433,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_marble_pillar", this.has(ModBlocks.MARBLE_PILLAR))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCHED_WINDOW_MIDDLE_CAP, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CENTER_PILLAR_CAP, 2)
                         .define('0', Blocks.TINTED_GLASS)
                         .define('1', Blocks.QUARTZ_BRICKS)
                         .define('2', ModBlocks.MARBLE_PILLAR)
@@ -477,7 +477,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_blocks", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_1_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL1, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'000'")
@@ -485,7 +485,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_1_8, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL8, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -493,7 +493,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_2_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'000'")
                         .pattern("'000'")
@@ -501,7 +501,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_2_8, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL8, 2)
                         .define('0', Blocks.QUARTZ_BLOCK)
                         .pattern("'000'")
                         .pattern("'00 '")
@@ -509,7 +509,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_block", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_2_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1, 1)
                         .define('0', Blocks.QUARTZ_BLOCK)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -517,7 +517,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_block", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_INNER_ARCH, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INNER_ARCH_BLOCK, 1)
                         .define('0', Blocks.QUARTZ_BLOCK)
                         .pattern("'000'")
                         .pattern("'   '")
@@ -525,7 +525,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_block", this.has(Blocks.QUARTZ_BLOCK))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_2_2, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL2, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'000'")
                         .pattern("'00 '")
@@ -533,7 +533,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_2_7, 2)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL7, 2)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'000'")
                         .pattern("' 00'")
@@ -541,7 +541,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL1, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -549,7 +549,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_2, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL2, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -557,7 +557,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL3, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -565,7 +565,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_6, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL6, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -573,7 +573,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_7, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL7, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -581,7 +581,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_3_8, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL8, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -589,7 +589,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_2, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL2, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -597,7 +597,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL3, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -605,7 +605,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL4, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -613,7 +613,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -621,7 +621,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_6, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL6, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -629,7 +629,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIX_BLOCK_ARCH_4_7, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL7, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("' 0 '")
@@ -637,7 +637,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_1_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL1, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -645,7 +645,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_1_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL4, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -653,7 +653,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_1_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -661,7 +661,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_1_2, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL2, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("' 0 '")
                         .pattern("'   '")
@@ -669,7 +669,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_2_1, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL1, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'0  '")
@@ -677,7 +677,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_2_2, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL2, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'0  '")
@@ -685,7 +685,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_2_3, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL3, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'0  '")
@@ -693,7 +693,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_2_4, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL4, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'0  '")
@@ -701,7 +701,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_2_5, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL5, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'   '")
                         .pattern("'0  '")
@@ -709,7 +709,7 @@ public class ModRecipeProvider {
                         .unlockedBy("has_quartz_bricks", this.has(Blocks.QUARTZ_BRICKS))
                         .save(this.output);
 
-                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIVE_BLOCK_ARCH_3_2, 1)
+                this.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL2, 1)
                         .define('0', Blocks.QUARTZ_BRICKS)
                         .pattern("'0  '")
                         .pattern("'   '")
