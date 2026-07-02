@@ -110,9 +110,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_0_1 = register(
-            "triple_window_0_1",
-            TripleWindow01Block::new,
+    public static final Block LEFT_END_BASE = register(
+            "left_end_base",
+            LeftEndBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -121,9 +121,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_0_2 = register(
-            "triple_window_0_2",
-            TripleWindow02Block::new,
+    public static final Block LEFT_PILLAR_BASE = register(
+            "left_pillar_base",
+            LeftPillarBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -132,9 +132,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_0_3 = register(
-            "triple_window_0_3",
-            TripleWindow03Block::new,
+    public static final Block RIGHT_PILLAR_BASE = register(
+            "right_pillar_base",
+            RightPillarBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -143,9 +143,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_0_4 = register(
-            "triple_window_0_4",
-            TripleWindow04Block::new,
+    public static final Block RIGHT_END_BASE = register(
+            "right_end_base",
+            RightEndBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -154,9 +154,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_1_1 = register(
-            "triple_window_1_1",
-            TripleWindow11Block::new,
+    public static final Block LEFT_END_MIDDLE = register(
+            "Left_end_middle",
+            LeftEndMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -165,9 +165,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_1_2 = register(
-            "triple_window_1_2",
-            TripleWindow12Block::new,
+    public static final Block LEFT_PILLAR_MIDDLE = register(
+            "left_pillar_middle",
+            LeftPillarMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -176,9 +176,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_1_3 = register(
-            "triple_window_1_3",
-            TripleWindow13Block::new,
+    public static final Block RIGHT_PILLAR_MIDDLE = register(
+            "right_pillar_middle",
+            RightPillarMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -187,9 +187,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_1_4 = register(
-            "triple_window_1_4",
-            TripleWindow14Block::new,
+    public static final Block RIGHT_END_MIDDLE = register(
+            "right_end_middle",
+            RightEndMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -198,9 +198,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_0 = register(
-            "triple_window_2_0",
-            TripleWindow20Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW1_COL1 = register(
+            "triple_window_arch_row1_col1",
+            TripleWindowArchRow1Col1Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -209,9 +209,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_1 = register(
-            "triple_window_2_1",
-            TripleWindow21Block::new,
+    public static final Block LEFT_END_CAP = register(
+            "Left_end_cap",
+            LeftEndCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -220,9 +220,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_2 = register(
-            "triple_window_2_2",
-            TripleWindow22Block::new,
+    public static final Block LEFT_PILLAR_CAP = register(
+            "left_pillar_cap",
+            LeftPillarCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -231,9 +231,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_3 = register(
-            "triple_window_2_3",
-            TripleWindow23Block::new,
+    public static final Block RIGHT_PILLAR_CAP = register(
+            "right_pillar_cap",
+            RightPillarCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -242,9 +242,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_4 = register(
-            "triple_window_2_4",
-            TripleWindow24Block::new,
+    public static final Block RIGHT_END_CAP = register(
+            "right_end_cap",
+            RightEndCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -253,9 +253,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_2_5 = register(
-            "triple_window_2_5",
-            TripleWindow25Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW1_COL6 = register(
+            "triple_window_arch_row1_col6",
+            TripleWindowArchRow1Col6Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -264,9 +264,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_3_0 = register(
-            "triple_window_3_0",
-            TripleWindow30Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW2_COL1 = register(
+            "triple_window_arch_row2_col1",
+            TripleWindowArchRow2Col1Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -275,9 +275,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_3_1 = register(
-            "triple_window_3_1",
-            TripleWindow31Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW2_COL2 = register(
+            "triple_window_arch_row2_col2",
+            TripleWindowArchRow2Col2Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -308,9 +308,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_3_4 = register(
-            "triple_window_3_4",
-            TripleWindow34Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW2_COL5 = register(
+            "triple_window_arch_row2_col5",
+            TripleWindowArchRow2Col5Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -319,9 +319,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_3_5 = register(
-            "triple_window_3_5",
-            TripleWindow35Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW2_COL6 = register(
+            "triple_window_arch_row2_col6",
+            TripleWindowArchRow2Col6Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -330,9 +330,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_0 = register(
-            "triple_window_4_0",
-            TripleWindow40Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL1 = register(
+            "triple_window_arch_row4_col1",
+            TripleWindowArchRow4Col1Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -341,9 +341,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_1 = register(
-            "triple_window_4_1",
-            TripleWindow41Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL2 = register(
+            "triple_window_arch_row4_col2",
+            TripleWindowArchRow4Col2Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -352,9 +352,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_2 = register(
-            "triple_window_4_2",
-            TripleWindow42Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL3 = register(
+            "triple_window_arch_row4_col3",
+            TripleWindowArchRow4Col3Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -363,9 +363,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_3 = register(
-            "triple_window_4_3",
-            TripleWindow43Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL4 = register(
+            "triple_window_arch_row4_col4",
+            TripleWindowArchRow4Col4Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -374,9 +374,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_4 = register(
-            "triple_window_4_4",
-            TripleWindow44Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL5 = register(
+            "triple_window_arch_row4_col5",
+            TripleWindowArchRow4Col5Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -385,9 +385,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_4_5 = register(
-            "triple_window_4_5",
-            TripleWindow45Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW4_COL6 = register(
+            "triple_window_arch_row4_col6",
+            TripleWindowArchRow4Col6Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -407,9 +407,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_5_1 = register(
-            "triple_window_5_1",
-            TripleWindow51Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL2 = register(
+            "triple_window_arch_row5_col2",
+            TripleWindowArchRow5Col2Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -418,9 +418,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_5_2 = register(
-            "triple_window_5_2",
-            TripleWindow52Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL3 = register(
+            "triple_window_arch_row5_col3",
+            TripleWindowArchRow5Col3Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -429,9 +429,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_5_3 = register(
-            "triple_window_5_3",
-            TripleWindow53Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL4 = register(
+            "triple_window_arch_row5_col4",
+            TripleWindowArchRow5Col4Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -440,9 +440,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_5_4 = register(
-            "triple_window_5_4",
-            TripleWindow54Block::new,
+    public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL5 = register(
+            "triple_window_arch_row5_col5",
+            TripleWindowArchRow5Col5Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -484,9 +484,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_LEFT_HALF_COLUMN_BASE = register(
-            "arched_window_left_half_column_base",
-            ArchedWindowLeftHalfColumnBaseBlock::new,
+    public static final Block RIGHT_HALF_PILLAR_BASE = register(
+            "right_half_pillar_base",
+            RightHalfPillarBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -495,9 +495,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_RIGHT_HALF_COLUMN_BASE = register(
-            "arched_window_right_half_column_base",
-            ArchedWindowRightHalfColumnBaseBlock::new,
+    public static final Block LEFT_HALF_PILLAR_BASE = register(
+            "left_half_pillar_base",
+            LeftHalfPillarBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -506,9 +506,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_RIGHT_HALF_COLUMN_MIDDLE = register(
-            "arched_window_right_half_column_middle",
-            ArchedWindowRightHalfColumnMiddleBlock::new,
+    public static final Block LEFT_HALF_PILLAR_MIDDLE = register(
+            "left_half_pillar_middle",
+            LeftHalfPillarMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -517,9 +517,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_LEFT_HALF_COLUMN_MIDDLE = register(
-            "arched_window_left_half_column_middle",
-            ArchedWindowLeftHalfColumnMiddleBlock::new,
+    public static final Block RIGHT_HALF_PILLAR_MIDDLE = register(
+            "right_half_pillar_middle",
+            RightHalfPillarMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -528,9 +528,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_RIGHT_HALF_COLUMN_CAP = register(
-            "arched_window_right_half_column_cap",
-            ArchedWindowRightHalfColumnCapBlock::new,
+    public static final Block LEFT_HALF_PILLAR_CAP = register(
+            "left_half_pillar_cap",
+            LeftHalfPillarCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -539,9 +539,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_LEFT_HALF_COLUMN_CAP = register(
-            "arched_window_left_half_column_cap",
-            ArchedWindowLeftHalfColumnCapBlock::new,
+    public static final Block RIGHT_HALF_PILLAR_CAP = register(
+            "right_half_pillar_cap",
+            RightHalfPillarCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -550,9 +550,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_MIDDLE_BASE = register(
-            "arched_window_middle_base",
-            ArchedWindowMiddleBaseBlock::new,
+    public static final Block CENTER_PILLAR_BASE = register(
+            "center_pillar_base",
+            CenterPillarBaseBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -561,9 +561,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_MIDDLE_COLUMN = register(
-            "arched_window_middle_column",
-            ArchedWindowMiddleColumnBlock::new,
+    public static final Block CENTER_PILLAR_MIDDLE = register(
+            "center_pillar_middle",
+            CenterPillarMiddleBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -572,9 +572,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block ARCHED_WINDOW_MIDDLE_CAP = register(
-            "arched_window_middle_cap",
-            ArchedWindowMiddleCapBlock::new,
+    public static final Block CENTER_PILLAR_CAP = register(
+            "center_pillar_cap",
+            CenterPillarCapBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -633,9 +633,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_1_1 = register(
-            "six_block_arch_1_1",
-            SixBlockArch11Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL1 = register(
+            "quadruple_window_arch_row1_col1",
+            QuadrupleWindowArchRow1Col1Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -644,9 +644,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_1_8 = register(
-            "six_block_arch_1_8",
-            SixBlockArch18Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL8 = register(
+            "quadruple_window_arch_row1_col8",
+            QuadrupleWindowArchRow1Col8Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -655,9 +655,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_2_1 = register(
-            "six_block_arch_2_1",
-            SixBlockArch21Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW2_COL1 = register(
+            "quadruple_window_arch_row2_col1",
+            QuadrupleWindowArchRow2Col1Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -666,9 +666,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_2_8 = register(
-            "six_block_arch_2_8",
-            SixBlockArch28Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW2_COL8 = register(
+            "quadruple_window_arch_row2_col8",
+            QuadrupleWindowArchRow2Col8Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -677,9 +677,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_INNER_ARCH = register(
-            "six_block_inner_arch",
-            SixBlockInnerArchBlock::new,
+    public static final Block INNER_ARCH_BLOCK = register(
+            "inner_arch_block",
+            InnerArchBlockBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -688,9 +688,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_2_2 = register(
-            "six_block_arch_2_2",
-            SixBlockArch22Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW2_COL2 = register(
+            "quadruple_window_arch_row2_col2",
+            QuadrupleWindowArchRow2Col2Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -699,9 +699,9 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block SIX_BLOCK_ARCH_2_7 = register(
-            "six_block_arch_2_7",
-            SixBlockArch27Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW2_COL7 = register(
+            "quadruple_window_arch_row2_col7",
+            QuadrupleWindowArchRow2Col7Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -745,9 +745,9 @@ public class ModBlocks {
 
 
  
-    public static final Block SIX_BLOCK_ARCH_3_1 = register(
-        "six_block_arch_3_1",
-        SixBlockArch31Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL1 = register(
+        "quadruple_window_arch_row3_col1",
+        QuadrupleWindowArchRow3Col1Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -756,9 +756,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_3_2 = register(
-        "six_block_arch_3_2",
-        SixBlockArch32Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL2 = register(
+        "quadruple_window_arch_row3_col2",
+        QuadrupleWindowArchRow3Col2Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -767,9 +767,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_3_3 = register(
-        "six_block_arch_3_3",
-        SixBlockArch33Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL3 = register(
+        "quadruple_window_arch_row3_col3",
+        QuadrupleWindowArchRow3Col3Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -778,9 +778,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_3_6 = register(
-        "six_block_arch_3_6",
-        SixBlockArch36Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL6 = register(
+        "quadruple_window_arch_row3_col6",
+        QuadrupleWindowArchRow3Col6Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -789,9 +789,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_3_7 = register(
-        "six_block_arch_3_7",
-        SixBlockArch37Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL7 = register(
+        "quadruple_window_arch_row3_col7",
+        QuadrupleWindowArchRow3Col7Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -800,9 +800,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_3_8 = register(
-        "six_block_arch_3_8",
-        SixBlockArch38Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW3_COL8 = register(
+        "quadruple_window_arch_row3_col8",
+        QuadrupleWindowArchRow3Col8Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -811,9 +811,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_2 = register(
-        "six_block_arch_4_2",
-        SixBlockArch42Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL2 = register(
+        "quadruple_window_arch_row1_col2",
+        QuadrupleWindowArchRow1Col2Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -822,9 +822,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_3 = register(
-        "six_block_arch_4_3",
-        SixBlockArch43Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL3 = register(
+        "quadruple_window_arch_row1_col3",
+        QuadrupleWindowArchRow1Col3Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -833,9 +833,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_4 = register(
-        "six_block_arch_4_4",
-        SixBlockArch44Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL4 = register(
+        "quadruple_window_arch_row1_col4",
+        QuadrupleWindowArchRow1Col4Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -844,9 +844,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_5 = register(
-        "six_block_arch_4_5",
-        SixBlockArch45Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL5 = register(
+        "quadruple_window_arch_row1_col5",
+        QuadrupleWindowArchRow1Col5Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -855,9 +855,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_6 = register(
-        "six_block_arch_4_6",
-        SixBlockArch46Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL6 = register(
+        "quadruple_window_arch_row1_col6",
+        QuadrupleWindowArchRow1Col6Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -866,9 +866,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block SIX_BLOCK_ARCH_4_7 = register(
-        "six_block_arch_4_7",
-        SixBlockArch47Block::new,
+    public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL7 = register(
+        "quadruple_window_arch_row1_col7",
+        QuadrupleWindowArchRow1Col7Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -877,9 +877,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_1_1 = register(
-        "five_block_arch_1_1",
-        FiveBlockArch11Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW1_COL1 = register(
+        "double_window_arch_row1_col1",
+        DoubleWindowArchRow1Col1Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -888,9 +888,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_1_4 = register(
-        "five_block_arch_1_4",
-        FiveBlockArch14Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW1_COL4 = register(
+        "double_window_arch_row1_col4",
+        DoubleWindowArchRow1Col4Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -899,9 +899,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_1_5 = register(
-        "five_block_arch_1_5",
-        FiveBlockArch15Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW1_COL5 = register(
+        "double_window_arch_row1_col5",
+        DoubleWindowArchRow1Col5Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -910,9 +910,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_1_2 = register(
-        "five_block_arch_1_2",
-        FiveBlockArch12Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW1_COL2 = register(
+        "double_window_arch_row1_col2",
+        DoubleWindowArchRow1Col2Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -921,9 +921,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_2_1 = register(
-        "five_block_arch_2_1",
-        FiveBlockArch21Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW2_COL1 = register(
+        "double_window_arch_row2_col1",
+        DoubleWindowArchRow2Col1Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -932,9 +932,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_2_2 = register(
-        "five_block_arch_2_2",
-        FiveBlockArch22Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW2_COL2 = register(
+        "double_window_arch_row2_col2",
+        DoubleWindowArchRow2Col2Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -943,9 +943,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_2_3 = register(
-        "five_block_arch_2_3",
-        FiveBlockArch23Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW2_COL3 = register(
+        "double_window_arch_row2_col3",
+        DoubleWindowArchRow2Col3Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -954,9 +954,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_2_4 = register(
-        "five_block_arch_2_4",
-        FiveBlockArch24Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW2_COL4 = register(
+        "double_window_arch_row2_col4",
+        DoubleWindowArchRow2Col4Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -965,9 +965,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_2_5 = register(
-        "five_block_arch_2_5",
-        FiveBlockArch25Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW2_COL5 = register(
+        "double_window_arch_row2_col5",
+        DoubleWindowArchRow2Col5Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
@@ -976,9 +976,9 @@ public class ModBlocks {
     );
 
  
-    public static final Block FIVE_BLOCK_ARCH_3_2 = register(
-        "five_block_arch_3_2",
-        FiveBlockArch32Block::new,
+    public static final Block DOUBLE_WINDOW_ARCH_ROW3_COL2 = register(
+        "double_window_arch_row3_col2",
+        DoubleWindowArchRow3Col2Block::new,
         BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)

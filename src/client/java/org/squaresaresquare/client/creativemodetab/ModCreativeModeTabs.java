@@ -76,23 +76,23 @@ public class ModCreativeModeTabs {
                 // create a grid of where I want to put items
                 Map<Integer, Block> TabLayout = new HashMap<>();
                 // create a grid of where I want to put items
-                //TabLayout.put(1, ModBlocks.five_block_arch_1_1);
+                //TabLayout.put(1, ModBlocks.double_window_arch_row1_col1);
                 //row1
-                TabLayout.put(3, ModBlocks.FIVE_BLOCK_ARCH_1_1);
-                TabLayout.put(4, ModBlocks.FIVE_BLOCK_ARCH_1_2);
-                TabLayout.put(5, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(6, ModBlocks.FIVE_BLOCK_ARCH_1_4);
-                TabLayout.put(7, ModBlocks.FIVE_BLOCK_ARCH_1_5);
+                TabLayout.put(3, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL1);
+                TabLayout.put(4, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL2);
+                TabLayout.put(5, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(6, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL4);
+                TabLayout.put(7, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL5);
                 //row2
-                TabLayout.put(12, ModBlocks.FIVE_BLOCK_ARCH_2_1);
-                TabLayout.put(13, ModBlocks.FIVE_BLOCK_ARCH_2_2);
-                TabLayout.put(14, ModBlocks.FIVE_BLOCK_ARCH_2_3);
-                TabLayout.put(15, ModBlocks.FIVE_BLOCK_ARCH_2_4);
-                TabLayout.put(16, ModBlocks.FIVE_BLOCK_ARCH_2_5);
+                TabLayout.put(12, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL1);
+                TabLayout.put(13, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL2);
+                TabLayout.put(14, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL3);
+                TabLayout.put(15, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL4);
+                TabLayout.put(16, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL5);
 
                 //row3
                 TabLayout.put(21, ModBlocks.QUARTZ_BRICKS);
-                TabLayout.put(20, ModBlocks.FIVE_BLOCK_ARCH_3_2);
+                TabLayout.put(20, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL2);
                 TabLayout.put(21, ModBlocks.QUARTZ_BRICKS);
                 TabLayout.put(20, ModBlocks.DOUBLE_ARCHED_WINDOW_6_4);
                 TabLayout.put(21, ModBlocks.QUARTZ_BRICKS);
@@ -120,45 +120,45 @@ public class ModCreativeModeTabs {
                 Map<Integer, Block> TabLayout = new HashMap<>();
                 //row 1 (0-8)
                 TabLayout.put(2, ModBlocks.TRIPLE_WINDOW_5_0);     // Row 1, Slot 3
-                TabLayout.put(3, ModBlocks.TRIPLE_WINDOW_5_1);     // Row 1, Slot 4
-                TabLayout.put(4, ModBlocks.TRIPLE_WINDOW_5_2);     // Row 1, Slot 5
-                TabLayout.put(5, ModBlocks.TRIPLE_WINDOW_5_3);     // Row 1, Slot 6
-                TabLayout.put(6, ModBlocks.TRIPLE_WINDOW_5_4);     // Row 1, Slot 7
+                TabLayout.put(3, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL2);     // Row 1, Slot 4
+                TabLayout.put(4, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL3);     // Row 1, Slot 5
+                TabLayout.put(5, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL4);     // Row 1, Slot 6
+                TabLayout.put(6, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL5);     // Row 1, Slot 7
                 TabLayout.put(7, ModBlocks.TRIPLE_WINDOW_5_5);      // Row 1, Slot 8
                 //row 2 (9-17)
-                TabLayout.put(11, ModBlocks.TRIPLE_WINDOW_4_0);     // Row 1, Slot 3
-                TabLayout.put(12, ModBlocks.TRIPLE_WINDOW_4_1);     // Row 1, Slot 4
-                TabLayout.put(13, ModBlocks.TRIPLE_WINDOW_4_2);     // Row 1, Slot 5
-                TabLayout.put(14, ModBlocks.TRIPLE_WINDOW_4_3);     // Row 1, Slot 6
-                TabLayout.put(15, ModBlocks.TRIPLE_WINDOW_4_4);     // Row 1, Slot 7
-                TabLayout.put(16, ModBlocks.TRIPLE_WINDOW_4_5);      // Row 1, Slot 8
+                TabLayout.put(11, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL1);     // Row 1, Slot 3
+                TabLayout.put(12, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL2);     // Row 1, Slot 4
+                TabLayout.put(13, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL3);     // Row 1, Slot 5
+                TabLayout.put(14, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL4);     // Row 1, Slot 6
+                TabLayout.put(15, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL5);     // Row 1, Slot 7
+                TabLayout.put(16, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL6);      // Row 1, Slot 8
                 //row 2 (18-26)
-                TabLayout.put(20, ModBlocks.TRIPLE_WINDOW_3_0);
-                TabLayout.put(21, ModBlocks.TRIPLE_WINDOW_3_1);
+                TabLayout.put(20, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL1);
+                TabLayout.put(21, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL2);
                 TabLayout.put(22, ModBlocks.TRIPLE_WINDOW_3_2);
                 TabLayout.put(23, ModBlocks.TRIPLE_WINDOW_3_3);
-                TabLayout.put(24, ModBlocks.TRIPLE_WINDOW_3_4);
-                TabLayout.put(25, ModBlocks.TRIPLE_WINDOW_3_5);
+                TabLayout.put(24, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL5);
+                TabLayout.put(25, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL6);
                 //row 3 (27-35)
-                TabLayout.put(29, ModBlocks.TRIPLE_WINDOW_2_0);
-                TabLayout.put(30, ModBlocks.TRIPLE_WINDOW_2_1);
-                TabLayout.put(31, ModBlocks.TRIPLE_WINDOW_2_2);
-                TabLayout.put(32, ModBlocks.TRIPLE_WINDOW_2_3);
-                TabLayout.put(33, ModBlocks.TRIPLE_WINDOW_2_4);
-                TabLayout.put(34, ModBlocks.TRIPLE_WINDOW_2_5);
+                TabLayout.put(29, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL1);
+                TabLayout.put(30, ModBlocks.LEFT_END_CAP);
+                TabLayout.put(31, ModBlocks.LEFT_PILLAR_CAP);
+                TabLayout.put(32, ModBlocks.RIGHT_PILLAR_CAP);
+                TabLayout.put(33, ModBlocks.RIGHT_END_CAP);
+                TabLayout.put(34, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL6);
                 //row 4 (36-44)
                 TabLayout.put(38, ModBlocks.QUARTZ_BRICKS);
-                TabLayout.put(39, ModBlocks.TRIPLE_WINDOW_1_1);
-                TabLayout.put(40, ModBlocks.TRIPLE_WINDOW_1_2);
-                TabLayout.put(41, ModBlocks.TRIPLE_WINDOW_1_3);
-                TabLayout.put(42, ModBlocks.TRIPLE_WINDOW_1_4);
+                TabLayout.put(39, ModBlocks.LEFT_END_MIDDLE);
+                TabLayout.put(40, ModBlocks.LEFT_PILLAR_MIDDLE);
+                TabLayout.put(41, ModBlocks.RIGHT_PILLAR_MIDDLE);
+                TabLayout.put(42, ModBlocks.RIGHT_END_MIDDLE);
                 TabLayout.put(43, ModBlocks.QUARTZ_BRICKS);
                 //row 5 (45-53)
                 TabLayout.put(47, ModBlocks.QUARTZ_BRICKS);
-                TabLayout.put(48, ModBlocks.TRIPLE_WINDOW_0_1);
-                TabLayout.put(49, ModBlocks.TRIPLE_WINDOW_0_2);
-                TabLayout.put(50, ModBlocks.TRIPLE_WINDOW_0_3);
-                TabLayout.put(51, ModBlocks.TRIPLE_WINDOW_0_4);
+                TabLayout.put(48, ModBlocks.LEFT_END_BASE);
+                TabLayout.put(49, ModBlocks.LEFT_PILLAR_BASE);
+                TabLayout.put(50, ModBlocks.RIGHT_PILLAR_BASE);
+                TabLayout.put(51, ModBlocks.RIGHT_END_BASE);
                 TabLayout.put(52, ModBlocks.QUARTZ_BRICKS);
 
                 // 2. Find the highest slot index used to determine where to stop the loop
@@ -184,68 +184,68 @@ public class ModCreativeModeTabs {
                 Map<Integer, Block> TabLayout = new HashMap<>();
                 // create a grid of where I want to put items
                 TabLayout.put(1, ModBlocks.QUARTZ_BRICKS);
-                TabLayout.put(2, ModBlocks.TRIPLE_WINDOW_0_1);
-                TabLayout.put(3, ModBlocks.TRIPLE_WINDOW_0_3);
-                TabLayout.put(4, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_BASE);
-                TabLayout.put(5, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_BASE);
-                TabLayout.put(6, ModBlocks.TRIPLE_WINDOW_0_2);
-                TabLayout.put(7, ModBlocks.TRIPLE_WINDOW_0_4);
+                TabLayout.put(2, ModBlocks.LEFT_END_BASE);
+                TabLayout.put(3, ModBlocks.RIGHT_PILLAR_BASE);
+                TabLayout.put(4, ModBlocks.RIGHT_HALF_PILLAR_BASE);
+                TabLayout.put(5, ModBlocks.LEFT_HALF_PILLAR_BASE);
+                TabLayout.put(6, ModBlocks.LEFT_PILLAR_BASE);
+                TabLayout.put(7, ModBlocks.RIGHT_END_BASE);
                 TabLayout.put(8, ModBlocks.QUARTZ_BRICKS);
 
                 //row 2
-                TabLayout.put(10, ModBlocks.SIX_BLOCK_ARCH_2_1);
-                TabLayout.put(11, ModBlocks.TRIPLE_WINDOW_1_1);
-                TabLayout.put(12, ModBlocks.TRIPLE_WINDOW_1_3);
-                TabLayout.put(13, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_MIDDLE);
-                TabLayout.put(14, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_MIDDLE);
-                TabLayout.put(15, ModBlocks.TRIPLE_WINDOW_1_2);
-                TabLayout.put(16, ModBlocks.TRIPLE_WINDOW_1_4);
-                TabLayout.put(17, ModBlocks.SIX_BLOCK_ARCH_2_8);
+                TabLayout.put(10, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1);
+                TabLayout.put(11, ModBlocks.LEFT_END_MIDDLE);
+                TabLayout.put(12, ModBlocks.RIGHT_PILLAR_MIDDLE);
+                TabLayout.put(13, ModBlocks.RIGHT_HALF_PILLAR_MIDDLE);
+                TabLayout.put(14, ModBlocks.LEFT_HALF_PILLAR_MIDDLE);
+                TabLayout.put(15, ModBlocks.LEFT_PILLAR_MIDDLE);
+                TabLayout.put(16, ModBlocks.RIGHT_END_MIDDLE);
+                TabLayout.put(17, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL8);
 
                 //row3
-                TabLayout.put(19, ModBlocks.SIX_BLOCK_ARCH_1_1);
-                TabLayout.put(20, ModBlocks.TRIPLE_WINDOW_2_1);
-                TabLayout.put(21, ModBlocks.TRIPLE_WINDOW_2_3);
-                TabLayout.put(22, ModBlocks.ARCHED_WINDOW_LEFT_HALF_COLUMN_CAP);
-                TabLayout.put(23, ModBlocks.ARCHED_WINDOW_RIGHT_HALF_COLUMN_CAP);
-                TabLayout.put(24, ModBlocks.TRIPLE_WINDOW_2_2);
-                TabLayout.put(25, ModBlocks.TRIPLE_WINDOW_2_4);
-                TabLayout.put(26, ModBlocks.SIX_BLOCK_ARCH_1_8);
+                TabLayout.put(19, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL1);
+                TabLayout.put(20, ModBlocks.LEFT_END_CAP);
+                TabLayout.put(21, ModBlocks.RIGHT_PILLAR_CAP);
+                TabLayout.put(22, ModBlocks.RIGHT_HALF_PILLAR_CAP);
+                TabLayout.put(23, ModBlocks.LEFT_HALF_PILLAR_CAP);
+                TabLayout.put(24, ModBlocks.LEFT_PILLAR_CAP);
+                TabLayout.put(25, ModBlocks.RIGHT_END_CAP);
+                TabLayout.put(26, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL8);
 
                 //row4
-                TabLayout.put(28, ModBlocks.SIX_BLOCK_ARCH_2_1);
-                TabLayout.put(29, ModBlocks.SIX_BLOCK_ARCH_2_2);
-                TabLayout.put(30, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(31, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(32, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(33, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(34, ModBlocks.SIX_BLOCK_ARCH_2_7);
-                TabLayout.put(35, ModBlocks.SIX_BLOCK_ARCH_2_8);
+                TabLayout.put(28, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1);
+                TabLayout.put(29, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL2);
+                TabLayout.put(30, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(31, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(32, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(33, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(34, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL7);
+                TabLayout.put(35, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL8);
 
                 //row5
-                TabLayout.put(37, ModBlocks.SIX_BLOCK_ARCH_3_1);
-                TabLayout.put(38, ModBlocks.SIX_BLOCK_ARCH_3_2);
-                TabLayout.put(39, ModBlocks.SIX_BLOCK_ARCH_3_3);
-                TabLayout.put(40, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(41, ModBlocks.SIX_BLOCK_INNER_ARCH);
-                TabLayout.put(42, ModBlocks.SIX_BLOCK_ARCH_3_6);
-                TabLayout.put(43, ModBlocks.SIX_BLOCK_ARCH_3_7);
-                TabLayout.put(44, ModBlocks.SIX_BLOCK_ARCH_3_8);
+                TabLayout.put(37, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL1);
+                TabLayout.put(38, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL2);
+                TabLayout.put(39, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL3);
+                TabLayout.put(40, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(41, ModBlocks.INNER_ARCH_BLOCK);
+                TabLayout.put(42, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL6);
+                TabLayout.put(43, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL7);
+                TabLayout.put(44, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL8);
 
                 //row6
                 TabLayout.put(46, ModBlocks.QUARTZ_BRICKS);
-                TabLayout.put(47, ModBlocks.SIX_BLOCK_ARCH_4_2);
-                TabLayout.put(48, ModBlocks.SIX_BLOCK_ARCH_4_3);
-                TabLayout.put(49, ModBlocks.SIX_BLOCK_ARCH_4_4);
-                TabLayout.put(50, ModBlocks.SIX_BLOCK_ARCH_4_5);
-                TabLayout.put(51, ModBlocks.SIX_BLOCK_ARCH_4_6);
-                TabLayout.put(52, ModBlocks.SIX_BLOCK_ARCH_4_7);
+                TabLayout.put(47, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL2);
+                TabLayout.put(48, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL3);
+                TabLayout.put(49, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL4);
+                TabLayout.put(50, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL5);
+                TabLayout.put(51, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL6);
+                TabLayout.put(52, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL7);
                 TabLayout.put(53, ModBlocks.QUARTZ_BRICKS);
 
                 //row7
-                TabLayout.put(18, ModBlocks.ARCHED_WINDOW_MIDDLE_BASE);
-                TabLayout.put(27, ModBlocks.ARCHED_WINDOW_MIDDLE_COLUMN);
-                TabLayout.put(36, ModBlocks.ARCHED_WINDOW_MIDDLE_CAP);
+                TabLayout.put(18, ModBlocks.CENTER_PILLAR_BASE);
+                TabLayout.put(27, ModBlocks.CENTER_PILLAR_MIDDLE);
+                TabLayout.put(36, ModBlocks.CENTER_PILLAR_CAP);
 
                 int maxSlot = TabLayout.keySet().stream().max(Integer::compare).orElse(0);
                 for (int slotIndex = 0; slotIndex <= maxSlot; slotIndex++) {
