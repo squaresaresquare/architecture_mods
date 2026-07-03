@@ -129,6 +129,8 @@
   "block.architecture_blocks.quartz_bricks": "Quartz bricks",
   "block.architecture_blocks.thatch": "Thatch",
   "block.architecture_blocks.thatch_peak": "Thatch peak",
+  "block.architecture_blocks.stone": "Stone",
+  "block.architecture_blocks.polished_andesite": "Polished Andesite",
   "itemGroup.architecture_blocks.architecture_block_tab": "Architecture Blocks",
   "itemGroup.architecture_blocks.double_arched_window_blocks_tab": "Blocks for a double arched window",
   "itemGroup.architecture_blocks.triple_arched_window_blocks_tab": "Blocks for a triple arched window",

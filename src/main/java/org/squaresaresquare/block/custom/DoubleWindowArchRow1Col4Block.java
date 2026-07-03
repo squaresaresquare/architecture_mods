@@ -2,7 +2,7 @@
 package org.squaresaresquare.block.custom;
 
 import com.mojang.serialization.MapCodec;
-import java.util.List;
+
 import javax.swing.text.html.BlockView;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -15,13 +15,12 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.squaresaresquare.Architecture_blocks;
 import org.squaresaresquare.block.ModBlocks;
 import org.squaresaresquare.block.entity.custom.DoubleWindowArchRow1Col4BlockEntity;
 
@@ -67,13 +66,13 @@ public class DoubleWindowArchRow1Col4Block extends BaseEntityBlock {
 
 
     @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
+    protected @NotNull MapCodec<? extends BaseEntityBlock> codec() {
         return simpleCodec(DoubleWindowArchRow1Col4Block::new);
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+    public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
         return new DoubleWindowArchRow1Col4BlockEntity(pos, state);
     }
 

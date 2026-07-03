@@ -44,8 +44,6 @@ public class ModBlockEntities {
     public static final BlockEntityType<@NotNull TripleWindowArchRow1Col6BlockEntity> TRIPLE_WINDOW_ARCH_ROW1_COL6_BLOCK_ENTITY = register("triple_window_arch_row1_col6", TripleWindowArchRow1Col6BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL6);
     public static final BlockEntityType<@NotNull TripleWindowArchRow2Col1BlockEntity> TRIPLE_WINDOW_ARCH_ROW2_COL1_BLOCK_ENTITY = register("triple_window_arch_row2_col1", TripleWindowArchRow2Col1BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL1);
     public static final BlockEntityType<@NotNull TripleWindowArchRow2Col2BlockEntity> TRIPLE_WINDOW_ARCH_ROW2_COL2_BLOCK_ENTITY = register("triple_window_arch_row2_col2", TripleWindowArchRow2Col2BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL2);
-    public static final BlockEntityType<@NotNull TripleWindow32BlockEntity> TRIPLE_WINDOW_3_2_BLOCK_ENTITY = register("triple_window_3_2", TripleWindow32BlockEntity::new, ModBlocks.TRIPLE_WINDOW_3_2);
-    public static final BlockEntityType<@NotNull TripleWindow33BlockEntity> TRIPLE_WINDOW_3_3_BLOCK_ENTITY = register("triple_window_3_3", TripleWindow33BlockEntity::new, ModBlocks.TRIPLE_WINDOW_3_3);
     public static final BlockEntityType<@NotNull TripleWindowArchRow2Col5BlockEntity> TRIPLE_WINDOW_ARCH_ROW2_COL5_BLOCK_ENTITY = register("triple_window_arch_row2_col5", TripleWindowArchRow2Col5BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL5);
     public static final BlockEntityType<@NotNull TripleWindowArchRow2Col6BlockEntity> TRIPLE_WINDOW_ARCH_ROW2_COL6_BLOCK_ENTITY = register("triple_window_arch_row2_col6", TripleWindowArchRow2Col6BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW2_COL6);
     public static final BlockEntityType<@NotNull TripleWindowArchRow4Col1BlockEntity> TRIPLE_WINDOW_ARCH_ROW4_COL1_BLOCK_ENTITY = register("triple_window_arch_row4_col1", TripleWindowArchRow4Col1BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL1);
@@ -54,12 +52,10 @@ public class ModBlockEntities {
     public static final BlockEntityType<@NotNull TripleWindowArchRow4Col4BlockEntity> TRIPLE_WINDOW_ARCH_ROW4_COL4_BLOCK_ENTITY = register("triple_window_arch_row4_col4", TripleWindowArchRow4Col4BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL4);
     public static final BlockEntityType<@NotNull TripleWindowArchRow4Col5BlockEntity> TRIPLE_WINDOW_ARCH_ROW4_COL5_BLOCK_ENTITY = register("triple_window_arch_row4_col5", TripleWindowArchRow4Col5BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL5);
     public static final BlockEntityType<@NotNull TripleWindowArchRow4Col6BlockEntity> TRIPLE_WINDOW_ARCH_ROW4_COL6_BLOCK_ENTITY = register("triple_window_arch_row4_col6", TripleWindowArchRow4Col6BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW4_COL6);
-    public static final BlockEntityType<@NotNull TripleWindow50BlockEntity> TRIPLE_WINDOW_5_0_BLOCK_ENTITY = register("triple_window_5_0", TripleWindow50BlockEntity::new, ModBlocks.TRIPLE_WINDOW_5_0);
     public static final BlockEntityType<@NotNull TripleWindowArchRow5Col2BlockEntity> TRIPLE_WINDOW_ARCH_ROW5_COL2_BLOCK_ENTITY = register("triple_window_arch_row5_col2", TripleWindowArchRow5Col2BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL2);
     public static final BlockEntityType<@NotNull TripleWindowArchRow5Col3BlockEntity> TRIPLE_WINDOW_ARCH_ROW5_COL3_BLOCK_ENTITY = register("triple_window_arch_row5_col3", TripleWindowArchRow5Col3BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL3);
     public static final BlockEntityType<@NotNull TripleWindowArchRow5Col4BlockEntity> TRIPLE_WINDOW_ARCH_ROW5_COL4_BLOCK_ENTITY = register("triple_window_arch_row5_col4", TripleWindowArchRow5Col4BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL4);
     public static final BlockEntityType<@NotNull TripleWindowArchRow5Col5BlockEntity> TRIPLE_WINDOW_ARCH_ROW5_COL5_BLOCK_ENTITY = register("triple_window_arch_row5_col5", TripleWindowArchRow5Col5BlockEntity::new, ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL5);
-    public static final BlockEntityType<@NotNull TripleWindow55BlockEntity> TRIPLE_WINDOW_5_5_BLOCK_ENTITY = register("triple_window_5_5", TripleWindow55BlockEntity::new, ModBlocks.TRIPLE_WINDOW_5_5);
     public static final BlockEntityType<@NotNull RightHalfPillarBaseBlockEntity> RIGHT_HALF_PILLAR_BASE_BLOCK_ENTITY = register("right_half_pillar_base", RightHalfPillarBaseBlockEntity::new, ModBlocks.RIGHT_HALF_PILLAR_BASE);
     public static final BlockEntityType<@NotNull RightHalfPillarCapBlockEntity> RIGHT_HALF_PILLAR_CAP_BLOCK_ENTITY = register("right_half_pillar_cap", RightHalfPillarCapBlockEntity::new, ModBlocks.RIGHT_HALF_PILLAR_CAP);
     public static final BlockEntityType<@NotNull RightHalfPillarMiddleBlockEntity> RIGHT_HALF_PILLAR_MIDDLE_BLOCK_ENTITY = register("right_half_pillar_middle", RightHalfPillarMiddleBlockEntity::new, ModBlocks.RIGHT_HALF_PILLAR_MIDDLE);
@@ -176,12 +172,10 @@ public class ModBlockEntities {
     public static final BlockEntityType<DoubleWindowArchRow3Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL4_BLOCK_ENTITY =
             register("double_window_arch_row3_col4", DoubleWindowArchRow3Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL4);
 
-    public static final BlockEntityType<DoubleArchedWindow64BlockEntity> DOUBLE_ARCHED_WINDOW_6_4_BLOCK_ENTITY =
-        register("double_arched_window_6_4", DoubleArchedWindow64BlockEntity::new, ModBlocks.DOUBLE_ARCHED_WINDOW_6_4);
-
     public static final BlockEntityType<StoneBlockEntity> STONE_BLOCK_ENTITY =
             register("stone", StoneBlockEntity::new, ModBlocks.STONE_BLOCK);                                                               //::new block here
-
+    public static final BlockEntityType<StoneBlockEntity> WINDOW_BLANK_ENTITY =
+            register("window_blank", StoneBlockEntity::new, ModBlocks.WINDOW_BLANK);
     public static final BlockEntityType<PolishedAndesiteBlockEntity> POLISHED_ANDESITE_BLOCK_ENTITY =
-            register("stone", PolishedAndesiteBlockEntity::new, ModBlocks.POLISHED_ANDESITE_BLOCK);
+            register("polished_andesite", PolishedAndesiteBlockEntity::new, ModBlocks.POLISHED_ANDESITE_BLOCK);
 }

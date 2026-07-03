@@ -2,23 +2,17 @@ package org.squaresaresquare.block.custom;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.BaseEntityBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
-import org.squaresaresquare.block.entity.custom.MarbleBlockBlockEntity;
-
+import org.squaresaresquare.block.entity.custom.StoneBlockEntity;
 import javax.swing.text.html.BlockView;
 
 public class StoneBlock extends BaseEntityBlock {
@@ -43,14 +37,14 @@ public class StoneBlock extends BaseEntityBlock {
 
 
     @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
+    protected @NotNull MapCodec<? extends BaseEntityBlock> codec() {
         return simpleCodec(StoneBlock::new);
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new MarbleBlockBlockEntity(pos, state);
+    public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
+        return new StoneBlockEntity(pos, state);
     }
 
     public void onInitialize() {

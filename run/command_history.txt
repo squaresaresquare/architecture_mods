@@ -3,3 +3,9 @@
 /weather clear
 /gamemode spectator
 /gamemode creative
+/difficulty peaceful
+/gamemode survival
+/give Player65 minecraft:crafting_table
+/give Player65 architecture_blocks:quartz_bricks 64
+/give Player65 architecture_blocks:window_blank 64
+/give Player65 minecraft:stonecutter

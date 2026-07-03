@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1803,
+      "minecraft:walk_one_cm": 5413,
+      "minecraft:total_world_time": 1833,
+      "minecraft:play_time": 1803,
+      "minecraft:time_since_death": 1803,
+      "minecraft:drop": 1
+    },
+    "minecraft:dropped": {
+      "architecture_blocks:marble_block": 1
+    },
+    "minecraft:picked_up": {
+      "architecture_blocks:marble_block": 1
+    }
+  },
+  "DataVersion": 4903
+}

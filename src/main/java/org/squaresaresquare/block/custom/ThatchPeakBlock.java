@@ -9,6 +9,7 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
 import org.squaresaresquare.block.entity.custom.ThatchPeakBlockEntity;
@@ -44,7 +45,7 @@ public class ThatchPeakBlock extends RotatedPillarBlock {
     }
 
     @Override
-    public MapCodec<? extends RotatedPillarBlock> codec() {
+    public @NotNull MapCodec<? extends RotatedPillarBlock> codec() {
         return simpleCodec(ThatchPeakBlock::new);
     }
 

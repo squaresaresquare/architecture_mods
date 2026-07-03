@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "architecture_blocks:block/triple_window_complete"
-    }
-  }
-}

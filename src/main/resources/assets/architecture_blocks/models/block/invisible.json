@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
     "particle": "architecture_blocks:block/invisible",
     "down": "architecture_blocks:block/invisible",

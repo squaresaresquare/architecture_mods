@@ -16,6 +16,7 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
 import org.squaresaresquare.block.entity.custom.DoubleWindowArchRow3Col2BlockEntity;
@@ -59,13 +60,13 @@ public class DoubleWindowArchRow3Col4Block extends BaseEntityBlock {
 
 
     @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
+    protected @NotNull MapCodec<? extends BaseEntityBlock> codec() {
         return simpleCodec(DoubleWindowArchRow3Col4Block::new);
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+    public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
         return new DoubleWindowArchRow3Col2BlockEntity(pos, state);
     }
 

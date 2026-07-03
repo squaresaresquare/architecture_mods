@@ -23,7 +23,7 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block TRIPLE_WIND0W_COMPLETE = register(
-            "triple_window_complete",
+            "triple_arched_window_complete",
             TripleWindowComplete::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
@@ -47,17 +47,6 @@ public class ModBlocks {
     public static final Block DOUBLE_ARCHED_WINDOW_COMPLETE = register(
             "double_arched_window_complete",
             DoubleArchedWindowComplete::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
-    public static final Block TRIPLE_ARCHED_WINDOW_COMPLETE = register(
-            "triple_arched_window_complete",
-            TripleArchedWindowComplete::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -105,7 +94,7 @@ public class ModBlocks {
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     //.noOcclusion()
                     .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, ƒpos, entityType) -> {
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
                         return false;
                     }),
             true
@@ -286,28 +275,6 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_3_2 = register(
-            "triple_window_3_2",
-            TripleWindow32Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
-    public static final Block TRIPLE_WINDOW_3_3 = register(
-            "triple_window_3_3",
-            TripleWindow33Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
     public static final Block TRIPLE_WINDOW_ARCH_ROW2_COL5 = register(
             "triple_window_arch_row2_col5",
             TripleWindowArchRow2Col5Block::new,
@@ -396,17 +363,6 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block TRIPLE_WINDOW_5_0 = register(
-            "triple_window_5_0",
-            TripleWindow50Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
     public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL2 = register(
             "triple_window_arch_row5_col2",
             TripleWindowArchRow5Col2Block::new,
@@ -443,17 +399,6 @@ public class ModBlocks {
     public static final Block TRIPLE_WINDOW_ARCH_ROW5_COL5 = register(
             "triple_window_arch_row5_col5",
             TripleWindowArchRow5Col5Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
-    public static final Block TRIPLE_WINDOW_5_5 = register(
-            "triple_window_5_5",
-            TripleWindow55Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1, 1)
@@ -1006,19 +951,9 @@ public class ModBlocks {
             true
     );
 
-    public static final Block DOUBLE_ARCHED_WINDOW_6_4 = register(
-        "double_arched_window_6_4",
-        DoubleArchedWindow64Block::new,
-        BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1,1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
-        true
-    );
-
     public static final Block STONE_BLOCK = register(
             "stone",
-            DoubleArchedWindow64Block::new,
+            StoneBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.STONE)
                     .noOcclusion()
                     .strength(1,1)
@@ -1026,8 +961,18 @@ public class ModBlocks {
             true
     );
 
+    public static final Block WINDOW_BLANK = register(
+            "window_blank",
+            WindowBlank::new,
+            BlockBehaviour.Properties.of().sound(SoundType.GLASS)
+                    .noOcclusion()
+                    .strength(1,1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
+            true
+    );
+
     public static final Block POLISHED_ANDESITE_BLOCK = register(
-            "stone",
+            "polished_andesite",
             PolishedAndesiteBlock::new,
             BlockBehaviour.Properties.of().sound(SoundType.STONE)
                     .noOcclusion()

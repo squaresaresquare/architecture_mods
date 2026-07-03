@@ -16,6 +16,7 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
 import org.squaresaresquare.block.entity.custom.LeftPillarBaseBlockEntity;
@@ -77,13 +78,13 @@ public class LeftPillarBaseBlock extends BaseEntityBlock {
 
 
     @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
+    protected @NotNull MapCodec<? extends BaseEntityBlock> codec() {
         return simpleCodec(LeftPillarBaseBlock::new);
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+    public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
         return new LeftPillarBaseBlockEntity(pos, state);
     }
 

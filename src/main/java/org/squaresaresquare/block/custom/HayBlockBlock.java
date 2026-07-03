@@ -4,6 +4,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import org.jetbrains.annotations.NotNull;
 
 public class HayBlockBlock extends Block {
     public HayBlockBlock(BlockBehaviour.Properties properties) {
@@ -11,7 +12,7 @@ public class HayBlockBlock extends Block {
     }
 
     @Override
-    public RenderShape getRenderShape(BlockState state) {
+    public @NotNull RenderShape getRenderShape(@NotNull BlockState state) {
         // Return MODEL for standard rendering or ENTITYBLOCK_ANIMATED for block entities
         return RenderShape.MODEL;
     }

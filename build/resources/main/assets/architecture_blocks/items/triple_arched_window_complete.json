@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "architecture_blocks:item/five_arched_window_complete"
+    "model": "architecture_blocks:item/triple_arched_window_complete"
   }
 }

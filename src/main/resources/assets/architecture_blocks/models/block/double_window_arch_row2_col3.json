@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/cube_all",
+	"parent": "minecraft:block/cube_all",
 	"ambientocclusion": false,
 	"textures": {
 		"0": "architecture_blocks:block/double_window_arch_row2_col3/double_window_arch_row2_col3",

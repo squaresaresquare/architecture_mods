@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6000,
+      "minecraft:walk_one_cm": 348,
+      "minecraft:total_world_time": 6233,
+      "minecraft:play_time": 6000,
+      "minecraft:time_since_death": 6000
+    },
+    "minecraft:used": {
+      "minecraft:stonecutter": 1,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4903
+}

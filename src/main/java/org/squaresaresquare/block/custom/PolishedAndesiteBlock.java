@@ -9,9 +9,10 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
-import org.squaresaresquare.block.entity.custom.MarbleBlockBlockEntity;
+import org.squaresaresquare.block.entity.custom.PolishedAndesiteBlockEntity;
 
 import javax.swing.text.html.BlockView;
 
@@ -37,14 +38,14 @@ public class PolishedAndesiteBlock extends BaseEntityBlock {
 
 
     @Override
-    protected MapCodec<? extends BaseEntityBlock> codec() {
+    protected @NotNull MapCodec<? extends BaseEntityBlock> codec() {
         return simpleCodec(PolishedAndesiteBlock::new);
     }
 
     @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new MarbleBlockBlockEntity(pos, state);
+    public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
+        return new PolishedAndesiteBlockEntity(pos, state);
     }
 
     public void onInitialize() {
