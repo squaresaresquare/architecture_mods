@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 25156,
+      "minecraft:total_world_time": 47352,
+      "minecraft:fly_one_cm": 1520,
+      "minecraft:sneak_time": 10,
+      "minecraft:play_time": 25156,
+      "minecraft:time_since_death": 25156
+    },
+    "minecraft:used": {
+      "architecture_blocks:quartz_bricks": 1,
+      "architecture_blocks:triple_window_arch_row1_col1": 1
+    }
+  },
+  "DataVersion": 4903
+}

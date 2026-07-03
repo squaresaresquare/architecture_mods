@@ -1,0 +1,61 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 22200,
+      "minecraft:walk_one_cm": 15325,
+      "minecraft:total_world_time": 26242,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 2257,
+      "minecraft:crouch_one_cm": 4,
+      "minecraft:sneak_time": 42,
+      "minecraft:play_time": 22200,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 22200,
+      "minecraft:drop": 1
+    },
+    "minecraft:used": {
+      "architecture_blocks:inner_arch_block": 7,
+      "architecture_blocks:right_half_pillar_base": 1,
+      "architecture_blocks:right_end_cap": 1,
+      "architecture_blocks:right_half_pillar_cap": 1,
+      "architecture_blocks:left_half_pillar_cap": 1,
+      "architecture_blocks:right_end_middle": 1,
+      "architecture_blocks:left_end_base": 1,
+      "architecture_blocks:right_end_base": 1,
+      "architecture_blocks:left_pillar_cap": 1,
+      "architecture_blocks:quadruple_window_arch_row2_col2": 1,
+      "architecture_blocks:quadruple_window_arch_row2_col1": 3,
+      "architecture_blocks:left_half_pillar_middle": 1,
+      "architecture_blocks:left_end_middle": 2,
+      "architecture_blocks:right_pillar_middle": 1,
+      "architecture_blocks:quadruple_window_arch_row2_col8": 8,
+      "architecture_blocks:quadruple_window_arch_row2_col7": 4,
+      "architecture_blocks:quadruple_window_arch_row3_col2": 1,
+      "architecture_blocks:quadruple_window_arch_row3_col3": 1,
+      "architecture_blocks:quadruple_window_arch_row3_col1": 2,
+      "architecture_blocks:right_pillar_base": 1,
+      "architecture_blocks:left_end_cap": 1,
+      "architecture_blocks:quartz_bricks": 8,
+      "architecture_blocks:quadruple_window_arch_row3_col8": 2,
+      "architecture_blocks:quadruple_window_arch_row3_col6": 1,
+      "architecture_blocks:quadruple_window_arch_row3_col7": 2,
+      "architecture_blocks:quadruple_window_arch_row1_col6": 4,
+      "architecture_blocks:right_pillar_cap": 1,
+      "architecture_blocks:right_half_pillar_middle": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col7": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col8": 6,
+      "architecture_blocks:left_pillar_base": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col2": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col3": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col4": 1,
+      "architecture_blocks:left_half_pillar_base": 1,
+      "architecture_blocks:quadruple_window_arch_row1_col5": 2,
+      "architecture_blocks:quadruple_window_arch_row1_col1": 1,
+      "architecture_blocks:left_pillar_middle": 1
+    },
+    "minecraft:dropped": {
+      "architecture_blocks:left_pillar_base": 2
+    }
+  },
+  "DataVersion": 4903
+}

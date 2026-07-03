@@ -1,0 +1,5 @@
+/give Player378 architecture_blocks:left_pillar_base
+/time set day
+/weather clear
+/gamemode spectator
+/gamemode creative

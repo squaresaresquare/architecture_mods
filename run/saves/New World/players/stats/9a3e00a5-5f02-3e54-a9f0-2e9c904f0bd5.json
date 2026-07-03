@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 41066,
+      "minecraft:walk_one_cm": 5732,
+      "minecraft:total_world_time": 409917,
+      "minecraft:fly_one_cm": 5096,
+      "minecraft:sneak_time": 20,
+      "minecraft:play_time": 41066,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 41066,
+      "minecraft:drop": 1
+    },
+    "minecraft:used": {
+      "architecture_blocks:triple_window_arch_row4_col5": 1,
+      "architecture_blocks:triple_window_arch_row4_col4": 1,
+      "architecture_blocks:triple_window_arch_row4_col3": 1,
+      "architecture_blocks:inner_arch_block": 2,
+      "architecture_blocks:triple_window_arch_row4_col2": 1,
+      "architecture_blocks:triple_window_arch_row4_col1": 1,
+      "architecture_blocks:quartz_bricks": 2,
+      "architecture_blocks:triple_window_arch_row4_col6": 1,
+      "architecture_blocks:triple_window_arch_row2_col5": 1,
+      "architecture_blocks:triple_window_arch_row2_col6": 1,
+      "architecture_blocks:triple_window_arch_row5_col3": 1,
+      "architecture_blocks:triple_window_arch_row2_col1": 1,
+      "architecture_blocks:triple_window_arch_row5_col4": 1,
+      "architecture_blocks:triple_window_arch_row5_col5": 1,
+      "architecture_blocks:triple_window_arch_row2_col2": 1,
+      "architecture_blocks:triple_window_arch_row5_col2": 1
+    },
+    "minecraft:dropped": {
+      "architecture_blocks:triple_window_arch_row5_col4": 1
+    }
+  },
+  "DataVersion": 4903
+}

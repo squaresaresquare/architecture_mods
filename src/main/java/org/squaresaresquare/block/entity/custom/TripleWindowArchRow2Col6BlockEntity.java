@@ -1,0 +1,13 @@
+package org.squaresaresquare.block.entity.custom;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import org.squaresaresquare.block.entity.ModBlockEntities;
+
+public class TripleWindowArchRow2Col6BlockEntity extends BlockEntity {
+    public TripleWindowArchRow2Col6BlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.TRIPLE_WINDOW_ARCH_ROW2_COL6_BLOCK_ENTITY, pos, state);
+    }
+}
+        

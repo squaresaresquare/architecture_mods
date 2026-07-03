@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "architecture_blocks:inner_arch_block": 1,
+      "architecture_blocks:center_pillar_cap": 1,
+      "architecture_blocks:center_pillar_base": 1,
+      "architecture_blocks:quartz_bricks": 6,
+      "architecture_blocks:left_end_cap": 1,
+      "architecture_blocks:double_window_arch_row1_col1": 1,
+      "architecture_blocks:right_end_cap": 1,
+      "architecture_blocks:double_window_arch_row1_col2": 1,
+      "architecture_blocks:double_window_arch_row1_col5": 1,
+      "architecture_blocks:double_window_arch_row1_col4": 1,
+      "architecture_blocks:right_end_middle": 1,
+      "architecture_blocks:left_end_base": 1,
+      "architecture_blocks:right_end_base": 1,
+      "architecture_blocks:center_pillar_middle": 1,
+      "architecture_blocks:left_end_middle": 1,
+      "architecture_blocks:double_window_arch_row2_col5": 2,
+      "architecture_blocks:double_window_arch_row2_col2": 3,
+      "architecture_blocks:double_window_arch_row2_col1": 2,
+      "architecture_blocks:double_window_arch_row2_col4": 2,
+      "architecture_blocks:double_window_arch_row2_col3": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 20258,
+      "minecraft:walk_one_cm": 2778,
+      "minecraft:total_world_time": 23714,
+      "minecraft:fly_one_cm": 140,
+      "minecraft:sneak_time": 10,
+      "minecraft:play_time": 20258,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 20258
+    }
+  },
+  "DataVersion": 4903
+}

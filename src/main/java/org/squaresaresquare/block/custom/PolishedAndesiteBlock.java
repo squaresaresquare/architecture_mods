@@ -1,0 +1,54 @@
+package org.squaresaresquare.block.custom;
+
+import com.mojang.serialization.MapCodec;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.BaseEntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.shapes.BooleanOp;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.Nullable;
+import org.squaresaresquare.block.ModBlocks;
+import org.squaresaresquare.block.entity.custom.MarbleBlockBlockEntity;
+
+import javax.swing.text.html.BlockView;
+
+public class PolishedAndesiteBlock extends BaseEntityBlock {
+    public PolishedAndesiteBlock(Properties properties) {
+        super(properties);
+    }
+
+    public VoxelShape makeShape() {
+        VoxelShape shape = Shapes.empty();
+        shape = Shapes.join(shape, Shapes.box(0, 0, 0, 1, 1, 1), BooleanOp.OR);
+
+        return shape;
+    }
+
+    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, CollisionContext context) {
+        return this.makeShape();
+    }
+
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, CollisionContext context) {
+        return this.makeShape();
+    }
+
+
+    @Override
+    protected MapCodec<? extends BaseEntityBlock> codec() {
+        return simpleCodec(PolishedAndesiteBlock::new);
+    }
+
+    @Nullable
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new MarbleBlockBlockEntity(pos, state);
+    }
+
+    public void onInitialize() {
+        ModBlocks.initialize();
+    }
+}
+        
