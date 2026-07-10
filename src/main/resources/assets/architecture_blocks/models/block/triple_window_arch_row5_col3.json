@@ -1,6 +1,6 @@
 {
   "credit": "Made with Blockbench",
-  "force_translucent": true,
+  "force_translucent": false,
   "texture_size": [
     128,
     128

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sodium-fabric-0.9.1-beta.3+mc26.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/mods/sodium-fabric-0.9.1-beta.3+mc26.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

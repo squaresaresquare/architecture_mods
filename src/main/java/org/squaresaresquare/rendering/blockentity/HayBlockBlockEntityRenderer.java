@@ -12,9 +12,9 @@ import net.minecraft.client.renderer.state.level.CameraRenderState;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.squaresaresquare.block.entity.custom.HayBlockBlockEntity;
+import org.squaresaresquare.block.entity.custom.HayBlockEntity;
 
-public class HayBlockBlockEntityRenderer implements BlockEntityRenderer<HayBlockBlockEntity, HayBlockBlockEntityRenderState> {
+public class HayBlockBlockEntityRenderer implements BlockEntityRenderer<HayBlockEntity, HayBlockBlockEntityRenderState> {
     private final Font font;
     private final ItemModel itemModel = null;
 
@@ -28,7 +28,7 @@ public class HayBlockBlockEntityRenderer implements BlockEntityRenderer<HayBlock
     }
 
     @Override
-    public void extractRenderState(HayBlockBlockEntity blockEntity, HayBlockBlockEntityRenderState state, float tickProgress, @NotNull Vec3 cameraPos, @Nullable ModelFeatureRenderer.CrumblingOverlay crumblingOverlay) {
+    public void extractRenderState(HayBlockEntity blockEntity, HayBlockBlockEntityRenderState state, float tickProgress, @NotNull Vec3 cameraPos, @Nullable ModelFeatureRenderer.CrumblingOverlay crumblingOverlay) {
         BlockEntityRenderer.super.extractRenderState(blockEntity, state, tickProgress, cameraPos, crumblingOverlay);
     }
 

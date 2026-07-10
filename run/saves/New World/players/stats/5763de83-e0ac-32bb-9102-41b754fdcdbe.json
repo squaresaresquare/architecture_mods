@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2111,
+      "minecraft:walk_one_cm": 5375,
+      "minecraft:total_world_time": 3249,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 2111,
+      "minecraft:time_since_death": 2111
+    },
+    "minecraft:used": {
+      "architecture_blocks:thatch": 2,
+      "architecture_blocks:thatch_peak": 1,
+      "architecture_blocks:hay_block": 2
+    }
+  },
+  "DataVersion": 4903
+}

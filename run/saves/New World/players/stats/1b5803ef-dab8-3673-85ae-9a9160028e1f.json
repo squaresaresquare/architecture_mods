@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "architecture_blocks:pillarless_window_middle": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 329,
+      "minecraft:total_world_time": 1372,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 329,
+      "minecraft:time_since_death": 329
+    }
+  },
+  "DataVersion": 4903
+}

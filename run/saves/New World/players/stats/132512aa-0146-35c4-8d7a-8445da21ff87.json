@@ -8,7 +8,7 @@
       "minecraft:time_since_death": 355
     },
     "minecraft:used": {
-      "architecture_blocks:polished_andesite": 2
+      "architecture_blocks:blocks/polished_andesite": 2
     }
   },
   "DataVersion": 4903

@@ -9,3 +9,24 @@
 /give Player65 architecture_blocks:quartz_bricks 64
 /give Player65 architecture_blocks:window_blank 64
 /give Player65 minecraft:stonecutter
+/time set minecraft:day
+/weather clear
+/give Player972 architecture_blocks:pillar_cap
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/give Player182 architecture_blocks:marble_block 10
+/give Player488 minecraft:cobbled_deepslate 2
+/give Player362 spruce_log
+/give Player255 minecraft:light_blue_glazed_terracotta
+/give Player255 minecraft:tinted_glass
+/give Player255 architecture_blocks:polished_andesite
+/give Player46 minecraft:hay_block
+/give Player46 architecture_blocks:hay_block
+/give Player994 minecraft:hay_block 50
+/give Player994 oak_log
+/time set day
+/weather clear
+/gamemode creative
+/time set minecraft:day
+/give Player685 architecture_blocks:thatch_block

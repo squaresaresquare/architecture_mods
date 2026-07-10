@@ -1,6 +1,8 @@
 package org.squaresaresquare.block.custom;
 
 import com.mojang.serialization.MapCodec;
+import org.squaresaresquare.block.ModBlocks;
+import org.squaresaresquare.block.entity.custom.ThatchPeakBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -11,8 +13,6 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.squaresaresquare.block.ModBlocks;
-import org.squaresaresquare.block.entity.custom.ThatchPeakBlockEntity;
 
 import javax.swing.text.html.BlockView;
 

@@ -18,6 +18,8 @@ import javax.swing.text.html.BlockView;
 
 public class WindowBlank extends BaseEntityBlock {
     public WindowBlank(Properties properties) {
+        System.out.print("In WindowBlank class\n\n");
+
         super(properties);
     }
 
@@ -47,10 +49,12 @@ public class WindowBlank extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
+        System.out.printf("create window blank entity\n");
         return new WindowBlankEntity(pos, state);
     }
 
     public void onInitialize() {
+        System.out.print("initialize the WINDOW_BLANK\n");
         ModBlocks.initialize();
     }
 }

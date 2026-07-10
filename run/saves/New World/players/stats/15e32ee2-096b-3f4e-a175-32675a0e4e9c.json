@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 638,
+      "minecraft:walk_one_cm": 110,
+      "minecraft:total_world_time": 656,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 4,
+      "minecraft:sneak_time": 8,
+      "minecraft:play_time": 638,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 638
+    },
+    "minecraft:used": {
+      "architecture_blocks:slot_window_middle": 1,
+      "architecture_blocks:slot_window_cap": 1,
+      "architecture_blocks:slot_window_base": 1
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "architecture_blocks:item/hay_block"
+    "model": "architecture_blocks:block/hay_block"
   }
 }
             

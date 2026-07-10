@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:hay_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 563,
+      "minecraft:walk_one_cm": 2444,
+      "minecraft:total_world_time": 1976,
+      "minecraft:play_time": 563,
+      "minecraft:time_since_death": 563
+    }
+  },
+  "DataVersion": 4903
+}

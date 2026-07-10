@@ -17,6 +17,18 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.CENTER_PILLAR_BASE);
         dropSelf(ModBlocks.CENTER_PILLAR_CAP);
         dropSelf(ModBlocks.CENTER_PILLAR_MIDDLE);
+        dropSelf(ModBlocks.CORNER_WINDOW_BASE);
+        dropSelf(ModBlocks.CORNER_WINDOW_CAP);
+        dropSelf(ModBlocks.CORNER_WINDOW_MIDDLE);
+        dropSelf(ModBlocks.SLOT_WINDOW_BASE);
+        dropSelf(ModBlocks.SLOT_WINDOW_CAP);
+        dropSelf(ModBlocks.SLOT_WINDOW_MIDDLE);
+        dropSelf(ModBlocks.PILLARLESS_WINDOW_BASE);
+        dropSelf(ModBlocks.PILLARLESS_WINDOW_CAP);
+        dropSelf(ModBlocks.PILLARLESS_WINDOW_MIDDLE);
+        dropSelf(ModBlocks.CENTER_CORNER_PILLAR_BASE);
+        dropSelf(ModBlocks.CENTER_CORNER_PILLAR_CAP);
+        dropSelf(ModBlocks.CENTER_CORNER_PILLAR_MIDDLE);
         dropSelf(ModBlocks.DOUBLE_ARCHED_WINDOW_COMPLETE);
         dropSelf(ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL1);
         dropSelf(ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL2);
@@ -47,9 +59,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.MARBLE_PILLAR);
         dropSelf(ModBlocks.MARBLE_PILLAR_BASE);
         dropSelf(ModBlocks.MARBLE_PLINTH_BLOCK);
-        dropSelf(ModBlocks.OAK_LOG_BLOCK);
         dropSelf(ModBlocks.PILLAR_CAP);
-        dropSelf(ModBlocks.POLISHED_ANDESITE_BLOCK);
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL1);
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL2);
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL3);
@@ -68,7 +78,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL6);
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL7);
         dropSelf(ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL8);
-        dropSelf(ModBlocks.QUARTZ_BRICKS);
         dropSelf(ModBlocks.RIGHT_END_BASE);
         dropSelf(ModBlocks.RIGHT_END_CAP);
         dropSelf(ModBlocks.RIGHT_END_MIDDLE);
@@ -78,9 +87,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.RIGHT_PILLAR_BASE);
         dropSelf(ModBlocks.RIGHT_PILLAR_CAP);
         dropSelf(ModBlocks.RIGHT_PILLAR_MIDDLE);
-        dropSelf(ModBlocks.STONE_BLOCK);
-        dropSelf(ModBlocks.THATCH);
-        dropSelf(ModBlocks.THATCH_PEAK);
         dropSelf(ModBlocks.TRIPLE_WIND0W_COMPLETE);
         dropSelf(ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL1);
         dropSelf(ModBlocks.TRIPLE_WINDOW_ARCH_ROW1_COL6);
@@ -99,6 +105,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL4);
         dropSelf(ModBlocks.TRIPLE_WINDOW_ARCH_ROW5_COL5);
         dropSelf(ModBlocks.WINDOW_BLANK);
+        dropSelf(ModBlocks.THATCH_BLOCK);
+        dropSelf(ModBlocks.THATCH_PEAK_BLOCK);
         //::new block here
     }
 }

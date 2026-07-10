@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "architecture_blocks:pillar_cap": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 8335,
+      "minecraft:walk_one_cm": 2272,
+      "minecraft:total_world_time": 8335,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 8335,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:time_since_death": 8335
+    }
+  },
+  "DataVersion": 4903
+}

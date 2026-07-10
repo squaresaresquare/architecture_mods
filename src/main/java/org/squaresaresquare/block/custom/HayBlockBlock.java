@@ -2,12 +2,11 @@ package org.squaresaresquare.block.custom;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RenderShape;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
 public class HayBlockBlock extends Block {
-    public HayBlockBlock(BlockBehaviour.Properties properties) {
+    public HayBlockBlock(Properties properties) {
         super(properties);
     }
 

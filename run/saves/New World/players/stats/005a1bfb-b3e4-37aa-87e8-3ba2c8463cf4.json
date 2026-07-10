@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1924,
+      "minecraft:walk_one_cm": 3065,
+      "minecraft:total_world_time": 5862,
+      "minecraft:play_time": 1924,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 1924
+    },
+    "minecraft:used": {
+      "minecraft:stone": 1,
+      "minecraft:polished_andesite": 1,
+      "minecraft:polished_diorite": 1,
+      "architecture_blocks:hay_block": 1,
+      "minecraft:diorite": 1,
+      "minecraft:polished_andesite_stairs": 1,
+      "minecraft:polished_andesite_slab": 1,
+      "minecraft:oak_log": 1
+    }
+  },
+  "DataVersion": 4903
+}

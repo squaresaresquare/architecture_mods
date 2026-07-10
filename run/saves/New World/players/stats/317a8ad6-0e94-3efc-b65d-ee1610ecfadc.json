@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1518,
+      "minecraft:total_world_time": 1542,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1518,
+      "minecraft:interact_with_stonecutter": 2,
+      "minecraft:time_since_death": 1518
+    }
+  },
+  "DataVersion": 4903
+}

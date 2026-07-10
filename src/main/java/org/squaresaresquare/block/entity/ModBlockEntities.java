@@ -15,16 +15,18 @@ import org.squaresaresquare.block.entity.custom.*;
 public class ModBlockEntities {
     private static <T extends BlockEntity> BlockEntityType<T> register(
             String name,
-            FabricBlockEntityTypeBuilder.Factory<? extends T> entityFactory,
+            FabricBlockEntityTypeBuilder.Factory<@NotNull ? extends T> entityFactory,
             Block... blocks
     ) {
         Identifier id = Identifier.fromNamespaceAndPath(Architecture_blocks.MOD_ID, name);
         return Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, id, FabricBlockEntityTypeBuilder.<T>create(entityFactory, blocks).build());
-    }    public static final BlockEntityType<@NotNull MarbleBlockBlockEntity> MARBLE_BLOCK_BLOCK_ENTITY = register("marble_block", MarbleBlockBlockEntity::new, ModBlocks.MARBLE_BLOCK);
-
+    }
     public static void initialize() {
-    }    public static final BlockEntityType<@NotNull MarblePillarBaseBlockEntity> MARBLE_PILLAR_BASE_BLOCK_ENTITY = register("marble_pillar_base", MarblePillarBaseBlockEntity::new, ModBlocks.MARBLE_PILLAR_BASE);
-    public static final BlockEntityType<@NotNull OakLogBlockEntity> OAK_LOG_BLOCK_ENTITY = register("oak_log", OakLogBlockEntity::new, ModBlocks.OAK_LOG_BLOCK);
+        System.out.print("initialize ModBlockEntities\n");
+    }
+    public static final BlockEntityType<@NotNull OakLogBlockEntity> OAK_LOG_BLOCK_ENTITY = register("oak_log", OakLogBlockEntity::new, ModBlocks.OAK_LOG);
+    public static final BlockEntityType<@NotNull MarbleBlockBlockEntity> MARBLE_BLOCK_BLOCK_ENTITY = register("marble_block", MarbleBlockBlockEntity::new, ModBlocks.MARBLE_BLOCK);
+    public static final BlockEntityType<@NotNull MarblePillarBaseBlockEntity> MARBLE_PILLAR_BASE_BLOCK_ENTITY = register("marble_pillar_base", MarblePillarBaseBlockEntity::new, ModBlocks.MARBLE_PILLAR_BASE);
     public static final BlockEntityType<@NotNull MarblePillarBlockEntity> MARBLE_PILLAR_BLOCK_ENTITY = register("marble_pillar", MarblePillarBlockEntity::new, ModBlocks.MARBLE_PILLAR);
     public static final BlockEntityType<@NotNull MarblePlinthBlockEntity> MARBLE_PLINTH_BLOCK_ENTITY = register("quartz_pillar", MarblePlinthBlockEntity::new, ModBlocks.MARBLE_PLINTH_BLOCK);
     public static final BlockEntityType<@NotNull PillarCapBlockEntity> PILLAR_CAP_BLOCK_ENTITY = register("pillar_cap", PillarCapBlockEntity::new, ModBlocks.PILLAR_CAP);
@@ -65,117 +67,51 @@ public class ModBlockEntities {
     public static final BlockEntityType<@NotNull CenterPillarBaseBlockEntity> CENTER_PILLAR_BASE_BLOCK_ENTITY = register("center_pillar_base", CenterPillarBaseBlockEntity::new, ModBlocks.CENTER_PILLAR_BASE);
     public static final BlockEntityType<@NotNull CenterPillarMiddleBlockEntity> CENTER_PILLAR_MIDDLE_BLOCK_ENTITY = register("center_pillar_middle", CenterPillarMiddleBlockEntity::new, ModBlocks.CENTER_PILLAR_MIDDLE);
     public static final BlockEntityType<@NotNull CenterPillarCapBlockEntity> CENTER_PILLAR_CAP_BLOCK_ENTITY = register("center_pillar_cap", CenterPillarCapBlockEntity::new, ModBlocks.CENTER_PILLAR_CAP);
-
-
-    public static final BlockEntityType<@NotNull ThatchBlockEntity> THATCH_BLOCK_ENTITY =
-            register("thatch", ThatchBlockEntity::new, ModBlocks.THATCH);
-
-    public static final BlockEntityType<@NotNull ThatchPeakBlockEntity> THATCH_PEAK_BLOCK_ENTITY =
-            register("thatch_peak", ThatchPeakBlockEntity::new, ModBlocks.THATCH_PEAK);
-
-    public static final BlockEntityType<@NotNull HayBlockBlockEntity> HAY_BLOCK_BLOCK_ENTITY =
-            register("hay_block", HayBlockBlockEntity::new, ModBlocks.HAY_BLOCK);
-
-    public static final BlockEntityType<QuartzBricksBlockEntity> QUARTZ_BRICKS_BLOCK_ENTITY =
-            register("quartz_bricks", QuartzBricksBlockEntity::new, ModBlocks.QUARTZ_BRICKS);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL1_BLOCK_ENTITY =
-            register("quadruple_window_arch_row1_col1", QuadrupleWindowArchRow1Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL1);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL8_BLOCK_ENTITY =
-            register("quadruple_window_arch_row1_col8", QuadrupleWindowArchRow1Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL8);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow2Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL1_BLOCK_ENTITY =
-            register("quadruple_window_arch_row2_col1", QuadrupleWindowArchRow2Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow2Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL8_BLOCK_ENTITY =
-            register("quadruple_window_arch_row2_col8", QuadrupleWindowArchRow2Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL8);
-
-    public static final BlockEntityType<InnerArchBlockBlockEntity> INNER_ARCH_BLOCK_BLOCK_ENTITY =
-            register("inner_arch_block", InnerArchBlockBlockEntity::new, ModBlocks.INNER_ARCH_BLOCK);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow2Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL2_BLOCK_ENTITY =
-            register("quadruple_window_arch_row2_col2", QuadrupleWindowArchRow2Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL2);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow2Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL7_BLOCK_ENTITY =
-            register("quadruple_window_arch_row2_col7", QuadrupleWindowArchRow2Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL7);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL1_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col1", QuadrupleWindowArchRow3Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL1);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL2_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col2", QuadrupleWindowArchRow3Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL2);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col3BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL3_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col3", QuadrupleWindowArchRow3Col3BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL3);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col6BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL6_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col6", QuadrupleWindowArchRow3Col6BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL6);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL7_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col7", QuadrupleWindowArchRow3Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL7);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow3Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL8_BLOCK_ENTITY =
-        register("quadruple_window_arch_row3_col8", QuadrupleWindowArchRow3Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL8);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL2_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col2", QuadrupleWindowArchRow1Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL2);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col3BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL3_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col3", QuadrupleWindowArchRow1Col3BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL3);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col4BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL4_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col4", QuadrupleWindowArchRow1Col4BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL4);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col5BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL5_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col5", QuadrupleWindowArchRow1Col5BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL5);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col6BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL6_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col6", QuadrupleWindowArchRow1Col6BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL6);
-
-    public static final BlockEntityType<QuadrupleWindowArchRow1Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL7_BLOCK_ENTITY =
-        register("quadruple_window_arch_row1_col7", QuadrupleWindowArchRow1Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL7);
-
-    public static final BlockEntityType<DoubleWindowArchRow1Col1BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL1_BLOCK_ENTITY =
-        register("double_window_arch_row1_col1", DoubleWindowArchRow1Col1BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL1);
-
-    public static final BlockEntityType<DoubleWindowArchRow1Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL4_BLOCK_ENTITY =
-        register("double_window_arch_row1_col4", DoubleWindowArchRow1Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL4);
-
-    public static final BlockEntityType<DoubleWindowArchRow1Col5BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL5_BLOCK_ENTITY =
-        register("double_window_arch_row1_col5", DoubleWindowArchRow1Col5BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL5);
-
-    public static final BlockEntityType<DoubleWindowArchRow1Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL2_BLOCK_ENTITY =
-        register("double_window_arch_row1_col2", DoubleWindowArchRow1Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL2);
-
-    public static final BlockEntityType<DoubleWindowArchRow2Col1BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL1_BLOCK_ENTITY =
-        register("double_window_arch_row2_col1", DoubleWindowArchRow2Col1BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL1);
-
-    public static final BlockEntityType<DoubleWindowArchRow2Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL2_BLOCK_ENTITY =
-        register("double_window_arch_row2_col2", DoubleWindowArchRow2Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL2);
-
-    public static final BlockEntityType<DoubleWindowArchRow2Col3BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL3_BLOCK_ENTITY =
-        register("double_window_arch_row2_col3", DoubleWindowArchRow2Col3BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL3);
-
-    public static final BlockEntityType<DoubleWindowArchRow2Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL4_BLOCK_ENTITY =
-        register("double_window_arch_row2_col4", DoubleWindowArchRow2Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL4);
-
-    public static final BlockEntityType<DoubleWindowArchRow2Col5BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL5_BLOCK_ENTITY =
-        register("double_window_arch_row2_col5", DoubleWindowArchRow2Col5BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL5);
-
-    public static final BlockEntityType<DoubleWindowArchRow3Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL2_BLOCK_ENTITY =
-        register("double_window_arch_row3_col2", DoubleWindowArchRow3Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL2);
-
-    public static final BlockEntityType<DoubleWindowArchRow3Col3BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL3_BLOCK_ENTITY =
-            register("double_window_arch_row3_col3", DoubleWindowArchRow3Col3BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL3);
-
-    public static final BlockEntityType<DoubleWindowArchRow3Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL4_BLOCK_ENTITY =
-            register("double_window_arch_row3_col4", DoubleWindowArchRow3Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL4);
-
-    public static final BlockEntityType<StoneBlockEntity> STONE_BLOCK_ENTITY =
-            register("stone", StoneBlockEntity::new, ModBlocks.STONE_BLOCK);                                                               //::new block here
-    public static final BlockEntityType<StoneBlockEntity> WINDOW_BLANK_ENTITY =
-            register("window_blank", StoneBlockEntity::new, ModBlocks.WINDOW_BLANK);
-    public static final BlockEntityType<PolishedAndesiteBlockEntity> POLISHED_ANDESITE_BLOCK_ENTITY =
-            register("polished_andesite", PolishedAndesiteBlockEntity::new, ModBlocks.POLISHED_ANDESITE_BLOCK);
+    public static final BlockEntityType<@NotNull CenterCornerPillarBaseBlockEntity> CENTER_CORNER_PILLAR_BASE_BLOCK_ENTITY = register("center_corner_pillar_base", CenterCornerPillarBaseBlockEntity::new, ModBlocks.CENTER_CORNER_PILLAR_BASE);
+    public static final BlockEntityType<@NotNull CenterCornerPillarMiddleBlockEntity> CENTER_CORNER_PILLAR_MIDDLE_BLOCK_ENTITY = register("center_corner_pillar_middle", CenterCornerPillarMiddleBlockEntity::new, ModBlocks.CENTER_CORNER_PILLAR_MIDDLE);
+    public static final BlockEntityType<@NotNull CenterCornerPillarCapBlockEntity> CENTER_CORNER_PILLAR_CAP_BLOCK_ENTITY = register("center_corner_pillar_cap", CenterCornerPillarCapBlockEntity::new, ModBlocks.CENTER_CORNER_PILLAR_CAP);
+    public static final BlockEntityType<@NotNull CornerWindowBaseBlockEntity> CORNER_WINDOW_BASE_BLOCK_ENTITY = register("corner_window_base", CornerWindowBaseBlockEntity::new, ModBlocks.CORNER_WINDOW_BASE);
+    public static final BlockEntityType<@NotNull CornerWindowMiddleBlockEntity> CORNER_WINDOW_MIDDLE_BLOCK_ENTITY = register("corner_window_middle", CornerWindowMiddleBlockEntity::new, ModBlocks.CORNER_WINDOW_MIDDLE);
+    public static final BlockEntityType<@NotNull CornerWindowCapBlockEntity> CORNER_WINDOW_CAP_BLOCK_ENTITY = register("corner_window_cap", CornerWindowCapBlockEntity::new, ModBlocks.CORNER_WINDOW_CAP);
+    public static final BlockEntityType<@NotNull SlotWindowBaseBlockEntity> SLOT_WINDOW_BASE_BLOCK_ENTITY = register("slot_window_base", SlotWindowBaseBlockEntity::new, ModBlocks.SLOT_WINDOW_BASE);
+    public static final BlockEntityType<@NotNull SlotWindowMiddleBlockEntity> SLOT_WINDOW_MIDDLE_BLOCK_ENTITY = register("slot_window_middle", SlotWindowMiddleBlockEntity::new, ModBlocks.SLOT_WINDOW_MIDDLE);
+    public static final BlockEntityType<@NotNull SlotWindowCapBlockEntity> SLOT_WINDOW_CAP_BLOCK_ENTITY = register("slot_window_cap", SlotWindowCapBlockEntity::new, ModBlocks.SLOT_WINDOW_CAP);
+    public static final BlockEntityType<@NotNull PillarlessWindowBaseBlockEntity> PILLARLESS_WINDOW_BASE_BLOCK_ENTITY = register("pillarless_window_base", PillarlessWindowBaseBlockEntity::new, ModBlocks.PILLARLESS_WINDOW_BASE);
+    public static final BlockEntityType<@NotNull PillarlessWindowMiddleBlockEntity> PILLARLESS_WINDOW_MIDDLE_BLOCK_ENTITY = register("pillarless_window_middle", PillarlessWindowMiddleBlockEntity::new, ModBlocks.PILLARLESS_WINDOW_MIDDLE);
+    public static final BlockEntityType<@NotNull PillarlessWindowCapBlockEntity> PILLARLESS_WINDOW_CAP_BLOCK_ENTITY = register("pillarless_window_cap", PillarlessWindowCapBlockEntity::new, ModBlocks.PILLARLESS_WINDOW_CAP);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL1_BLOCK_ENTITY = register("quadruple_window_arch_row1_col1", QuadrupleWindowArchRow1Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL1);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL8_BLOCK_ENTITY = register("quadruple_window_arch_row1_col8", QuadrupleWindowArchRow1Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL8);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow2Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL1_BLOCK_ENTITY = register("quadruple_window_arch_row2_col1", QuadrupleWindowArchRow2Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL1);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow2Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL8_BLOCK_ENTITY = register("quadruple_window_arch_row2_col8", QuadrupleWindowArchRow2Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL8);
+    public static final BlockEntityType<@NotNull InnerArchBlockBlockEntity> INNER_ARCH_BLOCK_BLOCK_ENTITY = register("inner_arch_block", InnerArchBlockBlockEntity::new, ModBlocks.INNER_ARCH_BLOCK);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow2Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL2_BLOCK_ENTITY = register("quadruple_window_arch_row2_col2", QuadrupleWindowArchRow2Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL2);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow2Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW2_COL7_BLOCK_ENTITY = register("quadruple_window_arch_row2_col7", QuadrupleWindowArchRow2Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW2_COL7);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col1BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL1_BLOCK_ENTITY = register("quadruple_window_arch_row3_col1", QuadrupleWindowArchRow3Col1BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL1);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL2_BLOCK_ENTITY = register("quadruple_window_arch_row3_col2", QuadrupleWindowArchRow3Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL2);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col3BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL3_BLOCK_ENTITY = register("quadruple_window_arch_row3_col3", QuadrupleWindowArchRow3Col3BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL3);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col6BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL6_BLOCK_ENTITY = register("quadruple_window_arch_row3_col6", QuadrupleWindowArchRow3Col6BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL6);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL7_BLOCK_ENTITY = register("quadruple_window_arch_row3_col7", QuadrupleWindowArchRow3Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL7);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow3Col8BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW3_COL8_BLOCK_ENTITY = register("quadruple_window_arch_row3_col8", QuadrupleWindowArchRow3Col8BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW3_COL8);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col2BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL2_BLOCK_ENTITY = register("quadruple_window_arch_row1_col2", QuadrupleWindowArchRow1Col2BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL2);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col3BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL3_BLOCK_ENTITY = register("quadruple_window_arch_row1_col3", QuadrupleWindowArchRow1Col3BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL3);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col4BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL4_BLOCK_ENTITY = register("quadruple_window_arch_row1_col4", QuadrupleWindowArchRow1Col4BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL4);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col5BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL5_BLOCK_ENTITY = register("quadruple_window_arch_row1_col5", QuadrupleWindowArchRow1Col5BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL5);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col6BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL6_BLOCK_ENTITY = register("quadruple_window_arch_row1_col6", QuadrupleWindowArchRow1Col6BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL6);
+    public static final BlockEntityType<@NotNull QuadrupleWindowArchRow1Col7BlockEntity> QUADRUPLE_WINDOW_ARCH_ROW1_COL7_BLOCK_ENTITY = register("quadruple_window_arch_row1_col7", QuadrupleWindowArchRow1Col7BlockEntity::new, ModBlocks.QUADRUPLE_WINDOW_ARCH_ROW1_COL7);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow1Col1BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL1_BLOCK_ENTITY = register("double_window_arch_row1_col1", DoubleWindowArchRow1Col1BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL1);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow1Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL4_BLOCK_ENTITY = register("double_window_arch_row1_col4", DoubleWindowArchRow1Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL4);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow1Col5BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL5_BLOCK_ENTITY = register("double_window_arch_row1_col5", DoubleWindowArchRow1Col5BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL5);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow1Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW1_COL2_BLOCK_ENTITY = register("double_window_arch_row1_col2", DoubleWindowArchRow1Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW1_COL2);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow2Col1BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL1_BLOCK_ENTITY = register("double_window_arch_row2_col1", DoubleWindowArchRow2Col1BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL1);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow2Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL2_BLOCK_ENTITY = register("double_window_arch_row2_col2", DoubleWindowArchRow2Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL2);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow2Col3BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL3_BLOCK_ENTITY = register("double_window_arch_row2_col3", DoubleWindowArchRow2Col3BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL3);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow2Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL4_BLOCK_ENTITY = register("double_window_arch_row2_col4", DoubleWindowArchRow2Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL4);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow2Col5BlockEntity> DOUBLE_WINDOW_ARCH_ROW2_COL5_BLOCK_ENTITY = register("double_window_arch_row2_col5", DoubleWindowArchRow2Col5BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW2_COL5);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow3Col2BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL2_BLOCK_ENTITY = register("double_window_arch_row3_col2", DoubleWindowArchRow3Col2BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL2);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow3Col3BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL3_BLOCK_ENTITY = register("double_window_arch_row3_col3", DoubleWindowArchRow3Col3BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL3);
+    public static final BlockEntityType<@NotNull DoubleWindowArchRow3Col4BlockEntity> DOUBLE_WINDOW_ARCH_ROW3_COL4_BLOCK_ENTITY = register("double_window_arch_row3_col4", DoubleWindowArchRow3Col4BlockEntity::new, ModBlocks.DOUBLE_WINDOW_ARCH_ROW3_COL4);
+    public static final BlockEntityType<@NotNull WindowBlankEntity> WINDOW_BLANK_ENTITY = register("window_blank", WindowBlankEntity::new, ModBlocks.WINDOW_BLANK);
+    public static final BlockEntityType<@NotNull HayBlockEntity> HAY_BLOCK_ENTITY = register("hay_block", HayBlockEntity::new, ModBlocks.HAY_BLOCK);
+    public static final BlockEntityType<@NotNull ThatchBlockEntity> THATCH_BLOCK_ENTITY = register("thatch", ThatchBlockEntity::new, ModBlocks.THATCH_BLOCK);
+    public static final BlockEntityType<@NotNull ThatchPeakBlockEntity> THATCH_PEAK_BLOCK_ENTITY = register("thatch_peak", ThatchPeakBlockEntity::new, ModBlocks.THATCH_PEAK_BLOCK);
 }

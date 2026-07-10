@@ -20,6 +20,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.squaresaresquare.block.ModBlocks;
 import org.squaresaresquare.block.entity.custom.DoubleWindowArchRow3Col2BlockEntity;
+import org.squaresaresquare.block.entity.custom.DoubleWindowArchRow3Col4BlockEntity;
 
 import javax.swing.text.html.BlockView;
 
@@ -67,7 +68,7 @@ public class DoubleWindowArchRow3Col4Block extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
-        return new DoubleWindowArchRow3Col2BlockEntity(pos, state);
+        return new DoubleWindowArchRow3Col4BlockEntity(pos, state);
     }
 
     public void onInitialize() {

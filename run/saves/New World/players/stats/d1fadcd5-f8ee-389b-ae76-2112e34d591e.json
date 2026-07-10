@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "architecture_blocks:marble_pillar": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 436,
+      "minecraft:walk_one_cm": 2739,
+      "minecraft:total_world_time": 838,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 436,
+      "minecraft:time_since_death": 436
+    }
+  },
+  "DataVersion": 4903
+}

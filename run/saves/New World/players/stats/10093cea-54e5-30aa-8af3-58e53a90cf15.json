@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:rotten_flesh": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3210,
+      "minecraft:walk_one_cm": 23438,
+      "minecraft:total_world_time": 6712,
+      "minecraft:play_time": 3210,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 3210
+    },
+    "minecraft:used": {
+      "architecture_blocks:thatch": 7,
+      "architecture_blocks:thatch_peak": 1,
+      "minecraft:oak_log": 4
+    }
+  },
+  "DataVersion": 4903
+}

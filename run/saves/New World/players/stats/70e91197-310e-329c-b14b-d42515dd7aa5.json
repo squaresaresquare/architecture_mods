@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2055,
+      "minecraft:walk_one_cm": 12951,
+      "minecraft:total_world_time": 14356,
+      "minecraft:fly_one_cm": 26,
+      "minecraft:play_time": 2055,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 2055
+    },
+    "minecraft:used": {
+      "minecraft:polished_diorite": 1,
+      "minecraft:polished_andesite_slab": 1
+    }
+  },
+  "DataVersion": 4903
+}

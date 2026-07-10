@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 3233,
+      "minecraft:walk_one_cm": 16561,
+      "minecraft:total_world_time": 54150,
+      "minecraft:play_time": 3233,
+      "minecraft:time_since_death": 3233
+    },
+    "minecraft:used": {
+      "minecraft:hay_block": 1
+    },
+    "minecraft:crafted": {
+      "architecture_blocks:thatch_peak": 4,
+      "architecture_blocks:thatch": 21
+    }
+  },
+  "DataVersion": 4903
+}

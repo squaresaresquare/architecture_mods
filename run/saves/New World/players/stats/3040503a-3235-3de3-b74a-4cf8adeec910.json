@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "architecture_blocks:window_blank": 1
+    },
+    "minecraft:picked_up": {
+      "architecture_blocks:window_blank": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 739,
+      "minecraft:walk_one_cm": 1067,
+      "minecraft:total_world_time": 51898,
+      "minecraft:play_time": 739,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:time_since_death": 739,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 4903
+}

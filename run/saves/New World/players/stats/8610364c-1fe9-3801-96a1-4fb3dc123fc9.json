@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 814,
+      "minecraft:walk_one_cm": 1399,
+      "minecraft:total_world_time": 857,
+      "minecraft:leave_game": 1,
+      "minecraft:sneak_time": 7,
+      "minecraft:play_time": 814,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 814
+    },
+    "minecraft:used": {
+      "architecture_blocks:pillarless_window_base": 1,
+      "architecture_blocks:pillarless_window_middle": 1,
+      "architecture_blocks:pillarless_window_cap": 1
+    }
+  },
+  "DataVersion": 4903
+}

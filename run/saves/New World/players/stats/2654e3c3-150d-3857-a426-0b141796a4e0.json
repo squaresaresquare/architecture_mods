@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2140,
+      "minecraft:walk_one_cm": 10312,
+      "minecraft:total_world_time": 13340,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1000,
+      "minecraft:sneak_time": 16,
+      "minecraft:play_time": 2140,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 2140
+    },
+    "minecraft:used": {
+      "architecture_blocks:pillar_cap": 1,
+      "architecture_blocks:marble_pillar": 6,
+      "architecture_blocks:marble_pillar_base": 1
+    }
+  },
+  "DataVersion": 4903
+}

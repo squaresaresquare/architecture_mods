@@ -88,17 +88,6 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block OAK_LOG_BLOCK = register(
-            "oak_log",
-            OakLogBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    //.noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
     public static final Block LEFT_END_BASE = register(
             "left_end_base",
             LeftEndBaseBlock::new,
@@ -528,34 +517,145 @@ public class ModBlocks {
                     }),
             true
     );
+    public static final Block CENTER_CORNER_PILLAR_BASE = register(
+            "center_corner_pillar_base",
+            CenterCornerPillarBaseBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block CENTER_CORNER_PILLAR_MIDDLE = register(
+            "center_corner_pillar_middle",
+            CenterCornerPillarMiddleBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block CENTER_CORNER_PILLAR_CAP = register(
+            "center_corner_pillar_cap",
+            CenterCornerPillarCapBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block CORNER_WINDOW_CAP = register(
+            "corner_window_cap",
+            CornerWindowCapBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block CORNER_WINDOW_MIDDLE = register(
+            "corner_window_middle",
+            CornerWindowMiddleBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block CORNER_WINDOW_BASE = register(
+            "corner_window_base",
+            CornerWindowBaseBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block SLOT_WINDOW_CAP = register(
+            "slot_window_cap",
+            SlotWindowCapBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block SLOT_WINDOW_MIDDLE = register(
+            "slot_window_middle",
+            SlotWindowMiddleBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block SLOT_WINDOW_BASE = register(
+            "slot_window_base",
+            SlotWindowBaseBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block PILLARLESS_WINDOW_CAP = register(
+            "pillarless_window_cap",
+            PillarlessWindowCapBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block PILLARLESS_WINDOW_MIDDLE = register(
+            "pillarless_window_middle",
+            PillarlessWindowMiddleBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
+    public static final Block PILLARLESS_WINDOW_BASE = register(
+            "pillarless_window_base",
+            PillarlessWindowBaseBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
     public static final Block INVISIBLE = register(
             "invisible",
             Block::new,
             BlockBehaviour.Properties.of().sound(SoundType.GLASS),
             true
     );
-    public static final Block THATCH = register(
-            "thatch",
-            ThatchBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
-    public static final Block THATCH_PEAK = register(
-            "thatch_peak",
-            ThatchPeakBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
+
     public static final Block HAY_BLOCK = register(
             "hay_block",
             HayBlock::new,
@@ -567,17 +667,7 @@ public class ModBlocks {
                     }),
             true
     );
-    public static final Block QUARTZ_BRICKS = register(
-            "quartz_bricks",
-            QuartzBricksBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
-                    .noOcclusion()
-                    .strength(1, 1)
-                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
-                        return false;
-                    }),
-            true
-    );
+
     public static final Block QUADRUPLE_WINDOW_ARCH_ROW1_COL1 = register(
             "quadruple_window_arch_row1_col1",
             QuadrupleWindowArchRow1Col1Block::new,
@@ -655,6 +745,17 @@ public class ModBlocks {
                     }),
             true
     );
+    public static final Block OAK_LOG = register(
+            "oak_log",
+            OakLogBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
+                    .noOcclusion()
+                    .strength(1, 1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {
+                        return false;
+                    }),
+            true
+    );
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
         // Create a registry key for the block
@@ -681,6 +782,7 @@ public class ModBlocks {
     }
 
     private static ResourceKey<@NotNull Item> keyOfItem(String name) {
+        System.out.printf("create resourcekey for %s\n", name);
         return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Architecture_blocks.MOD_ID, name));
     }
 
@@ -950,17 +1052,15 @@ public class ModBlocks {
                     .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
             true
     );
-
-    public static final Block STONE_BLOCK = register(
-            "stone",
-            StoneBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.STONE)
+    public static final Block QUARTZ_BRICKS = register(
+            "quartz_bricks",
+            QuartzBricksBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE)
                     .noOcclusion()
                     .strength(1,1)
                     .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
             true
     );
-
     public static final Block WINDOW_BLANK = register(
             "window_blank",
             WindowBlank::new,
@@ -971,16 +1071,26 @@ public class ModBlocks {
             true
     );
 
-    public static final Block POLISHED_ANDESITE_BLOCK = register(
-            "polished_andesite",
-            PolishedAndesiteBlock::new,
-            BlockBehaviour.Properties.of().sound(SoundType.STONE)
+    public static final Block THATCH_BLOCK = register(
+            "thatch",
+            ThatchBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.HANGING_ROOTS)
                     .noOcclusion()
                     .strength(1,1)
                     .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
             true
     );
-                                                                                                                                                                                            //::new block here                                                                                                                                                                                                                    //::new block here
+
+    public static final Block THATCH_PEAK_BLOCK = register(
+            "thatch_peak",
+            ThatchPeakBlock::new,
+            BlockBehaviour.Properties.of().sound(SoundType.HANGING_ROOTS)
+                    .noOcclusion()
+                    .strength(1,1)
+                    .isValidSpawn((state, blockGetter, pos, entityType) -> {return false;}),
+            true
+    );
+
     public static void initialize() {
 
     }

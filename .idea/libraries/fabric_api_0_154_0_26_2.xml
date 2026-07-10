@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fabric-api-0.154.0+26.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/mods/fabric-api-0.154.0+26.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

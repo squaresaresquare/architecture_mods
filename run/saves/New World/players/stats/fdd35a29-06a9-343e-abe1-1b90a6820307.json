@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:deepslate_brick_slab": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 507,
+      "minecraft:total_world_time": 14295,
+      "minecraft:play_time": 507,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:time_since_death": 507
+    }
+  },
+  "DataVersion": 4903
+}
